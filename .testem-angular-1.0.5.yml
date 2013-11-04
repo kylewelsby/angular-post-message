@@ -1,0 +1,7 @@
+port: 11105
+framework: jasmine
+serve_files: 
+  - 'bower_components/angular-1.0.5/angular.js'
+  - '.tmp/src/*.js'
+  - 'bower_components/angular-mocks-1.0.5/angular-mocks.js'
+  - '.tmp/tests/*.js'

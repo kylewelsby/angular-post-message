@@ -1,0 +1,21 @@
+{
+  "name": "angular-post-message",
+  "version": "1.0.0",
+  "description": "Allow angularJS to listen and publish cross-document messages though window.postMessage API.",
+  "main": "dist/angular-post-message.min.js",
+  "scripts": {
+    "test": "./node_modules/.bin/testem ci"
+  },
+  "author": "Kyle Welsby <kyle@mekyle.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "~1.6.3",
+    "testem": "~0.5.7",
+    "grunt": "~0.4.1",
+    "grunt-testem": "~0.4.0",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-uglify": "~0.2.5",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-testem": "~0.5.10"
+  }
+}

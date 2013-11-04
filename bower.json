@@ -1,0 +1,40 @@
+{
+  "name": "angular-post-message",
+  "version": "1.0.0",
+  "authors": [
+    "Kyle Welsby <kyle@mekyle.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "main": "dist/angular-post-message.min.js",
+  "dependencies": {
+    "angular-1.0.3": "angular#1.0.3",
+    "angular-1.0.4": "angular#1.0.4",
+    "angular-1.0.5": "angular#1.0.5",
+    "angular-1.0.6": "angular#1.0.6",
+    "angular-1.0.7": "angular#1.0.7",
+    "angular-1.0.8": "angular#1.0.8",
+    "angular-1.2.0-rc.1": "angular#1.2.0-rc.1",
+    "angular-1.2.0-rc.2": "angular#1.2.0-rc.2",
+    "angular-1.2.0-rc.3": "angular#1.2.0-rc.3"
+  },
+  "devDependencies": {
+    "angular-mocks-1.0.4": "angular-mocks#1.0.4",
+    "angular-mocks-1.0.5": "angular-mocks#1.0.5",
+    "angular-mocks-1.0.6": "angular-mocks#1.0.6",
+    "angular-mocks-1.0.7": "angular-mocks#1.0.7",
+    "angular-mocks-1.0.8": "angular-mocks#1.0.8",
+    "angular-mocks-1.2.0-rc.1": "angular-mocks#1.2.0-rc.1",
+    "angular-mocks-1.2.0-rc.2": "angular-mocks#1.2.0-rc.2",
+    "angular-mocks-1.2.0-rc.3": "angular-mocks#1.2.0-rc.3"
+  },
+  "resolutions": {
+    "angular": "1.2.0-rc.3"
+  }
+}
