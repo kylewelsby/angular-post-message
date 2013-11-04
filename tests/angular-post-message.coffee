@@ -3,9 +3,9 @@ describe("ngPostMessage",->
   $rootScope = null
   messages = null
   beforeEach(module('ngPostMessage'))
-  beforeEach(inject((_$rootScope_,_postMessage_)->
+  beforeEach(inject((_$rootScope_,_$postMessage_)->
     $rootScope = _$rootScope_
-    postMessage = _postMessage_
+    postMessage = _$postMessage_
     messages = ["foo", "bar"]
   ))
 

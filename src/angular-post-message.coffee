@@ -1,6 +1,6 @@
 app = angular.module("ngPostMessage",['ng'])
 
-app.directive('html',['$window','postMessage',($window,postMessage)->
+app.directive('html',['$window','$postMessage',($window,$postMessage)->
   {
     restrict: 'E'
     controller: (['$scope',($scope)->
@@ -19,7 +19,7 @@ app.directive('html',['$window','postMessage',($window,postMessage)->
             response = angular.fromJson(e.data)
           catch error
             response = event.data
-          postMessage.messages(response)
+          $postMessage.messages(response)
       )
 
       angular.element($window).bind('message',$scope.sendMessageToService)
@@ -27,7 +27,7 @@ app.directive('html',['$window','postMessage',($window,postMessage)->
   }
 ])
 
-app.factory("postMessage",['$rootScope',($rootScope)->
+app.factory("$postMessage",['$rootScope',($rootScope)->
   $messages = []
   api = {
     messages: ((_message_)->

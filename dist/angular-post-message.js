@@ -4,7 +4,7 @@
   app = angular.module("ngPostMessage", ['ng']);
 
   app.directive('html', [
-    '$window', 'postMessage', function($window, postMessage) {
+    '$window', '$postMessage', function($window, $postMessage) {
       return {
         restrict: 'E',
         controller: [
@@ -29,7 +29,7 @@
                 error = _error;
                 response = event.data;
               }
-              return postMessage.messages(response);
+              return $postMessage.messages(response);
             }
           });
           return angular.element($window).bind('message', $scope.sendMessageToService);
@@ -38,7 +38,7 @@
     }
   ]);
 
-  app.factory("postMessage", [
+  app.factory("$postMessage", [
     '$rootScope', function($rootScope) {
       var $messages, api;
       $messages = [];

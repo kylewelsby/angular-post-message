@@ -4,11 +4,11 @@ describe("ngPostMessage directive",->
   $scope = null
   messages = null
   beforeEach(module('ngPostMessage'))
-  beforeEach(inject(($rootScope,$compile,_postMessage_)->
+  beforeEach(inject(($rootScope,$compile,_$postMessage_)->
     $scope = $rootScope
     $scope.sender = jasmine.createSpyObj('sender',['postMessage'])
     messages = ["foo", "{\"message\":\"foo\"}", "connect"]
-    postMessage = _postMessage_
+    postMessage = _$postMessage_
     spyOn(postMessage,'messages').andCallThrough()
     elm = $compile(document.querySelector('html'))($scope)
     $scope.$digest()
