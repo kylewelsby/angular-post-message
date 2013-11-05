@@ -29,13 +29,13 @@ describe("ngPostMessage",->
 
   it "should broadcast an outgoing message", ->
     outgoingMessageListener = jasmine.createSpy("listener")
-    $rootScope.$on "outgoingMessage", outgoingMessageListener
+    $rootScope.$on "$messageOutgoing", outgoingMessageListener
     postMessage.post messages[0]
     expect(outgoingMessageListener).toHaveBeenCalled()
 
   it "should broadcast the correct outgoing message", ->
     outgoingMessageListener = jasmine.createSpy("listener")
-    $rootScope.$on "outgoingMessage", outgoingMessageListener
+    $rootScope.$on "$messageOutgoing", outgoingMessageListener
     postMessage.post messages[0]
     expect(outgoingMessageListener.mostRecentCall.args[1]).toEqual messages[0]
   

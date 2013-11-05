@@ -15,12 +15,19 @@ describe("ngPostMessage directive",->
   ))
 
   it('posts the message',->
-    $scope.$broadcast('outgoingMessage',"hello world")
+    $scope.$broadcast('$messageOutgoing',"hello world")
     expect($scope.sender.postMessage).toHaveBeenCalled()
   )
 
+  it('posts the message to parent window', inject(($window)->
+    spyOn($window.parent,'postMessage')
+    delete $scope.sender
+    $scope.$broadcast('$messageOutgoing',"hello world")
+    expect($window.parent.postMessage).toHaveBeenCalled()
+  ))
+
   it "should JSON stringify the message on post", ->
-    $scope.$broadcast "outgoingMessage", messages[0]
+    $scope.$broadcast "$messageOutgoing", messages[0]
     expect($scope.sender.postMessage).toHaveBeenCalledWith messages[0], "*"
 
   it "should call messages() on postMessageService", ->

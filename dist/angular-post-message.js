@@ -1,3 +1,8 @@
+/*!
+* angular-post-message v1.1.0
+* Copyright 2013 Kyle Welsby <kyle@mekyle.com>
+* Licensed under The MIT License
+*/
 (function() {
   var app;
 
@@ -9,10 +14,10 @@
         restrict: 'E',
         controller: [
           '$scope', function($scope) {
-            return $scope.$on('outgoingMessage', function(event, message) {
-              if ($scope.sender) {
-                return $scope.sender.postMessage(message, "*");
-              }
+            return $scope.$on('$messageOutgoing', function(event, message) {
+              var sender;
+              sender = $scope.sender || $window.parent;
+              return sender.postMessage(message, "*");
             });
           }
         ],
@@ -29,6 +34,7 @@
                 error = _error;
                 response = event.data;
               }
+              $scope.$root.$broadcast('$messageIncoming', response);
               return $postMessage.messages(response);
             }
           });
@@ -54,7 +60,7 @@
           return $messages[$messages.length - 1];
         }),
         post: (function(message) {
-          return $rootScope.$broadcast('outgoingMessage', message);
+          return $rootScope.$broadcast('$messageOutgoing', message);
         })
       };
       return api;

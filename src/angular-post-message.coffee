@@ -4,9 +4,9 @@ app.directive('html',['$window','$postMessage',($window,$postMessage)->
   {
     restrict: 'E'
     controller: (['$scope',($scope)->
-      $scope.$on('outgoingMessage',(event,message)->
-        if $scope.sender
-          $scope.sender.postMessage(message,"*")
+      $scope.$on('$messageOutgoing',(event,message)->
+        sender = $scope.sender || $window.parent
+        sender.postMessage(message,"*")
       )
     ])
     link: (($scope,$element,$attrs)->
@@ -19,6 +19,7 @@ app.directive('html',['$window','$postMessage',($window,$postMessage)->
             response = angular.fromJson(e.data)
           catch error
             response = event.data
+          $scope.$root.$broadcast('$messageIncoming', response)
           $postMessage.messages(response)
       )
 
@@ -40,7 +41,7 @@ app.factory("$postMessage",['$rootScope',($rootScope)->
       $messages[$messages.length - 1]
     )
     post: ((message)->
-      $rootScope.$broadcast('outgoingMessage',message)
+      $rootScope.$broadcast('$messageOutgoing',message)
     )
   }
   api

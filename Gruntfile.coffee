@@ -1,11 +1,12 @@
 module.exports = (grunt) ->
   grunt.initConfig(
     pkg: grunt.file.readJSON('package.json')
-    banner: """/*
+    banner: """/*!
     * <%= pkg.name %> v<%= pkg.version %>
     * Copyright <%= grunt.template.today("yyyy") %> <%= pkg.author %>
     * Licensed under The MIT License
     */
+
     """
     clean:
       dist: ['dist']
@@ -27,7 +28,15 @@ module.exports = (grunt) ->
       dist:
         files:
           'dist/angular-post-message.js': ['src/*.coffee']
+    concat:
+      options:
+        banner: '<%= banner %>'
+      dist:
+        src: ['dist/angular-post-message.js']
+        dest: 'dist/angular-post-message.js'
     uglify:
+      options:
+        banner: '<%= banner %>'
       dist:
         files:
           'dist/angular-post-message.min.js': ['dist/angular-post-message.js']
@@ -37,4 +46,5 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks('grunt-contrib-uglify')
   grunt.loadNpmTasks('grunt-contrib-coffee')
   grunt.loadNpmTasks('grunt-contrib-testem')
-  grunt.registerTask('default', ['clean:dist', 'coffee:dist', 'uglify:dist', 'testem:ci:dist'])
+  grunt.loadNpmTasks('grunt-contrib-concat')
+  grunt.registerTask('default', ['clean:dist', 'coffee:dist', 'concat:dist', 'uglify:dist', 'testem:ci:dist'])
