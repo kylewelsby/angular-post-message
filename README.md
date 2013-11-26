@@ -1,4 +1,4 @@
-# Angular Post Message API
+# Angular Post Message API [![][travisci_img]][travisci]
 
 Allow angularJS to listen and publish cross-document messages though [`window.postMessage`](http://www.whatwg.org/specs/web-apps/current-work/multipage/web-messaging.html#crossDocumentMessages) API.
 
@@ -58,3 +58,5 @@ To run tests while developing
 Then open [http://localhost:7357](http://localhost:7357) in any or all browsers.
 
 [testem]:https://github.com/airportyh/testem
+[travisci]:https://travis-ci.org/kylewelsby/angular-post-message
+[travisci_img]:https://travis-ci.org/kylewelsby/angular-post-message.png

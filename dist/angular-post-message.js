@@ -1,5 +1,5 @@
 /*!
-* angular-post-message v1.1.0
+* angular-post-message v1.1.1
 * Copyright 2013 Kyle Welsby <kyle@mekyle.com>
 * Licensed under The MIT License
 */
@@ -29,7 +29,7 @@
               response = null;
               $scope.sender = event.source;
               try {
-                response = angular.fromJson(e.data);
+                response = angular.fromJson(event.data);
               } catch (_error) {
                 error = _error;
                 response = event.data;

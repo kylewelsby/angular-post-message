@@ -38,6 +38,15 @@ launchers:
   Angular 1.2.0-rc.3:
     command: 'testem ci --file .testem-angular-1.2.0-rc.3.yml'
     protocol: 'tap'
+  Angular 1.2.0:
+    command: 'testem ci --file .testem-angular-1.2.0.yml'
+    protocol: 'tap'
+  Angular 1.2.1:
+    command: 'testem ci --file .testem-angular-1.2.1.yml'
+    protocol: 'tap'
+  Angular 1.2.2:
+    command: 'testem ci --file .testem-angular-1.2.2.yml'
+    protocol: 'tap'
 
 launch_in_ci: 
   - Angular 1.0.3
@@ -49,5 +58,8 @@ launch_in_ci:
   - Angular 1.2.0-rc.1
   - Angular 1.2.0-rc.2
   - Angular 1.2.0-rc.3
+  - Angular 1.2.0
+  - Angular 1.2.1
+  - Angular 1.2.2
 
 launch_in_dev: []

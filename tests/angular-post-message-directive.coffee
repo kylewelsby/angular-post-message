@@ -36,7 +36,7 @@ describe("ngPostMessage directive",->
 
   it "should call messages() on postMessageService decoding JSON message", ->
     $scope.sendMessageToService data: messages[1]
-    expect(postMessage.messages).toHaveBeenCalledWith messages[1]
+    expect(postMessage.messages).toHaveBeenCalledWith angular.fromJson(messages[1])
   
 )
 

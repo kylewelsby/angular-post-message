@@ -16,8 +16,9 @@ app.directive('html',['$window','$postMessage',($window,$postMessage)->
           response = null
           $scope.sender = event.source
           try
-            response = angular.fromJson(e.data)
+            response = angular.fromJson(event.data)
           catch error
+            console.error('ahem', error)
             response = event.data
           $scope.$root.$broadcast('$messageIncoming', response)
           $postMessage.messages(response)

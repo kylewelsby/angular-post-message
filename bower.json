@@ -1,6 +1,6 @@
 {
   "name": "angular-post-message",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "authors": [
     "Kyle Welsby <kyle@mekyle.com>"
   ],
@@ -26,6 +26,9 @@
     "angular-1.2.0-rc.1": "angular#1.2.0-rc.1",
     "angular-1.2.0-rc.2": "angular#1.2.0-rc.2",
     "angular-1.2.0-rc.3": "angular#1.2.0-rc.3",
+    "angular-1.2.0": "angular#1.2.0",
+    "angular-1.2.1": "angular#1.2.1",
+    "angular-1.2.2": "angular#1.2.2",
     "angular-mocks-1.0.4": "angular-mocks#1.0.4",
     "angular-mocks-1.0.5": "angular-mocks#1.0.5",
     "angular-mocks-1.0.6": "angular-mocks#1.0.6",
@@ -33,6 +36,9 @@
     "angular-mocks-1.0.8": "angular-mocks#1.0.8",
     "angular-mocks-1.2.0-rc.1": "angular-mocks#1.2.0-rc.1",
     "angular-mocks-1.2.0-rc.2": "angular-mocks#1.2.0-rc.2",
-    "angular-mocks-1.2.0-rc.3": "angular-mocks#1.2.0-rc.3"
+    "angular-mocks-1.2.0-rc.3": "angular-mocks#1.2.0-rc.3",
+    "angular-mocks-1.2.0": "angular-mocks#1.2.0",
+    "angular-mocks-1.2.1": "angular-mocks#1.2.1",
+    "angular-mocks-1.2.2": "angular-mocks#1.2.2"
   }
 }
