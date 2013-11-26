@@ -40,5 +40,8 @@
     "angular-mocks-1.2.0": "angular-mocks#1.2.0",
     "angular-mocks-1.2.1": "angular-mocks#1.2.1",
     "angular-mocks-1.2.2": "angular-mocks#1.2.2"
+  },
+  "resolutions": {
+    "angular": "~1"
   }
 }
