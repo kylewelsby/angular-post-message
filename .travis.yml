@@ -8,3 +8,4 @@ before_script:
   - ./node_modules/.bin/bower install --dev
   - sh -e /etc/init.d/xvfb start
   - sleep 3
+  - ./node_modules/.bin/testem launchers
