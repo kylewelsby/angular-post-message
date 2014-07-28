@@ -4,7 +4,7 @@
   "description": "Allow angularJS to listen and publish cross-document messages though window.postMessage API.",
   "main": "dist/angular-post-message.min.js",
   "scripts": {
-    "test": "./node_modules/.bin/testem ci"
+    "test": "./node_modules/.bin/testem ci --skip firefox"
   },
   "author": "Kyle Welsby <kyle@mekyle.com>",
   "license": "MIT",
