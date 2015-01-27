@@ -1,6 +1,6 @@
 /*!
-* angular-post-message v1.1.1
-* Copyright 2013 Kyle Welsby <kyle@mekyle.com>
+* angular-post-message2 v1.1.2
+* Copyright 2015 Kyle Welsby <kyle@mekyle.com>
 * Licensed under The MIT License
 */
 (function() {
@@ -14,10 +14,13 @@
         restrict: 'E',
         controller: [
           '$scope', function($scope) {
-            return $scope.$on('$messageOutgoing', function(event, message) {
+            return $scope.$on('$messageOutgoing', function(event, message, domain) {
               var sender;
+              if (domain == null) {
+                domain = "*";
+              }
               sender = $scope.sender || $window.parent;
-              return sender.postMessage(message, "*");
+              return sender.postMessage(message, domain);
             });
           }
         ],
@@ -32,6 +35,7 @@
                 response = angular.fromJson(event.data);
               } catch (_error) {
                 error = _error;
+                console.error('ahem', error);
                 response = event.data;
               }
               $scope.$root.$broadcast('$messageIncoming', response);
@@ -59,8 +63,11 @@
         lastMessage: (function() {
           return $messages[$messages.length - 1];
         }),
-        post: (function(message) {
-          return $rootScope.$broadcast('$messageOutgoing', message);
+        post: (function(message, domain) {
+          if (domain == null) {
+            domain = "*";
+          }
+          return $rootScope.$broadcast('$messageOutgoing', message, domain);
         })
       };
       return api;
