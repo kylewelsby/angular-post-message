@@ -27,7 +27,7 @@ describe("ngPostMessage directive",->
   ))
 
   it "should JSON stringify the message on post", ->
-    $scope.$broadcast "$messageOutgoing", messages[0]
+    $scope.$broadcast "$messageOutgoing", messages[0], "*"
     expect($scope.sender.postMessage).toHaveBeenCalledWith messages[0], "*"
 
   it "should call messages() on postMessageService", ->

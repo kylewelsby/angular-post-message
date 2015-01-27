@@ -4,9 +4,9 @@ app.directive('html',['$window','$postMessage',($window,$postMessage)->
   {
     restrict: 'E'
     controller: (['$scope',($scope)->
-      $scope.$on('$messageOutgoing',(event,message)->
+      $scope.$on('$messageOutgoing',(event,message,domain)->
         sender = $scope.sender || $window.parent
-        sender.postMessage(message,"*")
+        sender.postMessage(message,domain)
       )
     ])
     link: (($scope,$element,$attrs)->
@@ -41,10 +41,9 @@ app.factory("$postMessage",['$rootScope',($rootScope)->
     lastMessage: (->
       $messages[$messages.length - 1]
     )
-    post: ((message)->
-      $rootScope.$broadcast('$messageOutgoing',message)
+    post: ((message,domain="*")->
+      $rootScope.$broadcast('$messageOutgoing',message,domain)
     )
   }
   api
 ])
-

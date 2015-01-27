@@ -9,14 +9,16 @@
   "author": "Kyle Welsby <kyle@mekyle.com>",
   "license": "MIT",
   "devDependencies": {
+    "angular": "^1.3.11",
     "coffee-script": "~1.6.3",
-    "testem": "~0.5.7",
-    "grunt": "~0.4.1",
-    "grunt-testem": "~0.4.0",
-    "grunt-contrib-coffee": "~0.7.0",
-    "grunt-contrib-uglify": "~0.2.5",
+    "grunt": "^0.4.5",
     "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-testem": "~0.5.10",
-    "grunt-contrib-concat": "~0.3.0"
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-testem": "^0.5.16",
+    "grunt-contrib-uglify": "~0.2.5",
+    "grunt-testem": "~0.4.0",
+    "jasmine": "^2.1.1",
+    "testem": "~0.5.7"
   }
 }
