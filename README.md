@@ -1,6 +1,7 @@
 # Angular Post Message API [![][travisci_img]][travisci]
 (hopefully) temporary fork of kylewelsby/angular-post-message, intended to allow postMessage to a specific domain instead of always "*".
-
+from here on - the original README
+====================================
 Allow angularJS to listen and publish cross-document messages though [`window.postMessage`](http://www.whatwg.org/specs/web-apps/current-work/multipage/web-messaging.html#crossDocumentMessages) API.
 
 Cross-document messaging is compatable with the following browsers as seen on [Can I Use](http://caniuse.com/x-doc-messaging):
