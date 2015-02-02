@@ -13,11 +13,6 @@ for(var i=0; i<process.argv.length;i++){
   }
 }
 
-if(!port) {
-  throw new Error('Port is not defined');
-}
-
-
 var angularVersions = [
   '1.0.8',
   '1.2.9',
@@ -69,6 +64,9 @@ if(!angularVersion) {
     config.launch_in_ci.push(key);
   });
 } else {
+  if(!port) {
+    throw new Error('Port is not defined');
+  }
   config.launchers = {};
   sauceLabsBrowsers.forEach(function(browser){
     var key = ['SauceLabs', browser.name, browser.version].join(' ');
