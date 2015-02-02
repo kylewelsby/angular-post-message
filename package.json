@@ -19,6 +19,7 @@
     "grunt-contrib-uglify": "~0.2.5",
     "grunt-testem": "~0.4.0",
     "jasmine": "^2.1.1",
-    "testem": "~0.5.7"
+    "testem": "~0.5.7",
+    "saucie": "~0.1.0"
   }
 }

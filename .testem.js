@@ -25,10 +25,10 @@ var sauceLabsBrowsers = [
   // {name: 'internet explorer', version: 10, platform: 'Windows 8'},
   // {name: 'internet explorer', version: 9, platform: 'Windows 7'},
   // {name: 'internet explorer', version: 8, platform: 'Windows XP'},
-  {name: 'chrome'},
-  {name: 'firefox'},
-  {name: 'opera'},
-  {name: 'safari', version: 8, platform: 'OS X 10.10'},
+  // {name: 'chrome'},
+  // {name: 'firefox'},
+  // {name: 'opera'},
+  // {name: 'safari', version: 8, platform: 'OS X 10.10'},
   {name: 'safari', version: 7, platform: 'OS X 10.9'},
   {name: 'safari', version: 6, platform: 'OS X 10.8'},
   {name: 'iphone', version: '8.1', platform: 'OS X 10.10'},
@@ -70,7 +70,7 @@ if(!angularVersion) {
   config.launchers = {};
   sauceLabsBrowsers.forEach(function(browser){
     var key = ['SauceLabs', browser.name, browser.version].join(' ');
-    var command = ['saucie', '--port="'+port+'"']
+    var command = ['./node_modules/.bin/saucie', '--port="'+port+'"']
     command.push('--browserNameSL="'+browser.name+'"')
     if(browser.version){
       command.push('--versionSL="'+browser.version+'"')
