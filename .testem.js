@@ -51,6 +51,7 @@ var config = {
     'src/*.coffee',
     'tests/*.coffee'
   ],
+  timeout: 60 * 1000,
   launch_in_ci: [],
   launch_in_dev: []
 };
