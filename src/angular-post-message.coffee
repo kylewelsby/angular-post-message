@@ -4,7 +4,7 @@ app.directive('html',['$window','$postMessage',($window,$postMessage)->
   {
     restrict: 'E'
     controller: (['$scope',($scope)->
-      $scope.$on('$messageOutgoing',(event,message,domain)->
+      $scope.$on('$messageOutgoing',(event,message,domain="*")->
         sender = $scope.sender || $window.parent
         sender.postMessage(message,domain)
       )

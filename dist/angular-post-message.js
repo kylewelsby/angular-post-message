@@ -1,5 +1,5 @@
 /*!
-* angular-post-message v1.1.1
+* angular-post-message2 v1.1.2
 * Copyright 2015 Kyle Welsby <kyle@mekyle.com>
 * Licensed under The MIT License
 */
@@ -16,6 +16,9 @@
           '$scope', function($scope) {
             return $scope.$on('$messageOutgoing', function(event, message, domain) {
               var sender;
+              if (domain == null) {
+                domain = "*";
+              }
               sender = $scope.sender || $window.parent;
               return sender.postMessage(message, domain);
             });
