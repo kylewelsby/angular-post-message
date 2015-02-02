@@ -1,0 +1,1461 @@
+2015-02-02 22:57:57,638 - sauce_connect:601 - INFO - / Starting \
+2015-02-02 22:57:57,640 - sauce_connect:602 - INFO - Please wait for "You may start your tests" to start your tests.
+2015-02-02 22:57:57,644 - sauce_connect:614 - DEBUG - System is 8.0 hours off UTC
+2015-02-02 22:57:57,645 - sauce_connect:616 - DEBUG - options: {'use_ssh_config': False, 'boost_mode': True, 'ssh': False, 'proxy_password': '', 'ports': ['58276'], 'vm_version': '', 'squid_opts': '', 'logfilesize': '31457280', 'readyfile': '/Users/kyle/Code/OpenSource/angular-post-message/node_modules/saucie/node_modules/sauce-connect-launcher/lib/readyfile', 'tunnel_ports': ['80'], 'proxy_host': '', 'host': '127.0.0.1', 'latency_log': 150, 'quiet': False, 'shared_tunnel': False, 'proxy_port': '', 'allow_unclean_exit': False, 'tunnel_identifier': 'Saucie', 'ssh_port': 443, 'logfile': 'sauce-example.log', 'debug_ssh': False, 'domains': None, 'proxy_tunnel': False, 'proxy_user': '', 'no_ssl_bump_domains': '', 'rest_url': 'https://saucelabs.com/rest/v1', 'direct_domains': '', 'fast_fail_regexps': '', 'se_port': '4445', 'user': 'kylewelsby-os'}
+2015-02-02 22:57:57,647 - sauce_connect:617 - DEBUG - metadata: {'OwnerHost': '127.0.0.1', 'Platform': 'Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64', 'PythonVersion': '2.5.1', 'Ports': ['80'], 'ScriptRelease': 50, 'OwnerPorts': ['58276'], 'Build': '50', 'ScriptName': 'sauce_connect', 'Release': '3.1-r32'}
+2015-02-02 22:57:57,648 - sauce_connect:619 - INFO - Forwarding: None:['80'] -> 127.0.0.1:['58276']
+2015-02-02 22:57:57,654 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:58276 in 1ms
+2015-02-02 22:58:00,996 - sauce_connect:265 - INFO - {"tunnel_identifier":"Saucie","metadata":{"OwnerHost":"127.0.0.1","Platform":"Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64","PythonVersion":"2.5.1","Ports":["80"],"ScriptRelease":50,"OwnerPorts":["58276"],"Build":"50","ScriptName":"sauce_connect","Release":"3.1-r32"},"ssh_port":443,"squid_config":null,"use_caching_proxy":true,"no_ssl_bump_domains":null,"use_kgp":true,"domain_names":[],"direct_domains":null,"vm_version":"","fast_fail_regexps":null,"shared_tunnel":false}
+2015-02-02 22:58:04,808 - sauce_connect:276 - INFO - Tunnel remote VM is provisioned (9764c55455bc473eb52c250cd3ee5518)
+2015-02-02 22:58:10,811 - sauce_connect:298 - INFO - Tunnel remote VM is running at maki78184.miso.saucelabs.com
+2015-02-02 22:58:10,823 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:58276 in 0ms
+2015-02-02 22:58:10,826 - sauce_connect:696 - INFO - Starting connection to tunnel host...
+2015-02-02 22:58:10,826 - sauce_connect:696 - INFO - Connecting to tunnel host maki78184.miso.saucelabs.com as kylewelsby-os
+2015-02-02 22:58:10,937 - sauce_connect:696 - INFO - Forwarding Selenium with ephemeral port 58337
+2015-02-02 22:58:10,940 - sauce_connect:696 - INFO - Selenium HTTP proxy listening on port 4445
+2015-02-02 22:58:12,099 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2015-02-02 22:58:12,104 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: f43a2f8a5dba49b0a9364b9f39879711
+2015-02-02 22:58:12,105 - sauce_connect:696 - INFO - Connected! You may start your tests.
+2015-02-02 22:58:20,170 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/
+2015-02-02 22:58:20,206 - sauce_connect:0 - INFO - GET http://localhost:11140/ -> 200 (36ms, 859 bytes)
+2015-02-02 22:58:20,444 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/testem/jasmine.js
+2015-02-02 22:58:20,444 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/testem.js
+2015-02-02 22:58:20,453 - sauce_connect:0 - INFO - GET http://localhost:11140/testem/jasmine.js -> 200 (8ms, 70892 bytes)
+2015-02-02 22:58:20,457 - sauce_connect:0 - INFO - GET http://localhost:11140/testem.js -> 200 (13ms, 193000 bytes)
+2015-02-02 22:58:20,549 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/testem/jasmine-html.js
+2015-02-02 22:58:20,549 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/bower_components/angular-1.4.0/angular.js
+2015-02-02 22:58:20,549 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/.tmp/src/angular-post-message.js
+2015-02-02 22:58:20,555 - sauce_connect:0 - INFO - GET http://localhost:11140/testem/jasmine-html.js -> 200 (5ms, 20797 bytes)
+2015-02-02 22:58:20,556 - sauce_connect:0 - INFO - GET http://localhost:11140/.tmp/src/angular-post-message.js -> 200 (7ms, 2151 bytes)
+2015-02-02 22:58:20,566 - sauce_connect:0 - INFO - GET http://localhost:11140/bower_components/angular-1.4.0/angular.js -> 200 (18ms, 957175 bytes)
+2015-02-02 22:58:20,744 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/bower_components/angular-mocks-1.4.0/angular-mocks.js
+2015-02-02 22:58:20,749 - sauce_connect:0 - INFO - GET http://localhost:11140/bower_components/angular-mocks-1.4.0/angular-mocks.js -> 200 (4ms, 79680 bytes)
+2015-02-02 22:58:21,269 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/testem/jasmine.css
+2015-02-02 22:58:21,273 - sauce_connect:0 - INFO - GET http://localhost:11140/testem/jasmine.css -> 200 (3ms, 6537 bytes)
+2015-02-02 22:58:21,684 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/.tmp/tests/angular-post-message-directive.js
+2015-02-02 22:58:21,688 - sauce_connect:0 - INFO - GET http://localhost:11140/.tmp/tests/angular-post-message-directive.js -> 200 (3ms, 1873 bytes)
+2015-02-02 22:58:22,055 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/.tmp/tests/angular-post-message.js
+2015-02-02 22:58:22,059 - sauce_connect:0 - INFO - GET http://localhost:11140/.tmp/tests/angular-post-message.js -> 200 (4ms, 1687 bytes)
+2015-02-02 22:58:22,252 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889100234-0
+2015-02-02 22:58:22,256 - sauce_connect:0 - INFO - GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889100234-0 -> 200 (6ms, 101 bytes)
+2015-02-02 22:58:23,290 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889101787-1&sid=JZtTVQceNyYHxO2aAAAA
+2015-02-02 22:58:23,292 - sauce_connect:0 - INFO - GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889101787-1&sid=JZtTVQceNyYHxO2aAAAA -> 200 (3ms, 5 bytes)
+2015-02-02 22:58:23,486 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/favicon.ico
+2015-02-02 22:58:23,490 - sauce_connect:0 - INFO - GET http://localhost:11140/favicon.ico -> 404 (3ms, 23 bytes)
+2015-02-02 22:58:23,502 - sauce_connect:0 - INFO - Request started: POST http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889102006-2&sid=JZtTVQceNyYHxO2aAAAA
+2015-02-02 22:58:23,505 - sauce_connect:0 - INFO - POST http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889102006-2&sid=JZtTVQceNyYHxO2aAAAA -> 200 (3ms, 2 bytes)
+2015-02-02 22:58:23,680 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889102008-3&sid=JZtTVQceNyYHxO2aAAAA
+2015-02-02 22:58:24,086 - sauce_connect:0 - INFO - Request started: POST http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889102393-4&sid=JZtTVQceNyYHxO2aAAAA
+2015-02-02 22:58:24,089 - sauce_connect:0 - INFO - POST http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889102393-4&sid=JZtTVQceNyYHxO2aAAAA -> 200 (4ms, 2 bytes)
+2015-02-02 22:58:27,469 - sauce_connect:0 - INFO - received SIGTERM
+2015-02-02 22:58:36,696 - sauce_connect:601 - INFO - / Starting \
+2015-02-02 22:58:36,698 - sauce_connect:602 - INFO - Please wait for "You may start your tests" to start your tests.
+2015-02-02 22:58:36,703 - sauce_connect:614 - DEBUG - System is 8.0 hours off UTC
+2015-02-02 22:58:36,703 - sauce_connect:616 - DEBUG - options: {'use_ssh_config': False, 'boost_mode': True, 'ssh': False, 'proxy_password': '', 'ports': ['58473'], 'vm_version': '', 'squid_opts': '', 'logfilesize': '31457280', 'readyfile': '/Users/kyle/Code/OpenSource/angular-post-message/node_modules/saucie/node_modules/sauce-connect-launcher/lib/readyfile', 'tunnel_ports': ['80'], 'proxy_host': '', 'host': '127.0.0.1', 'latency_log': 150, 'quiet': False, 'shared_tunnel': False, 'proxy_port': '', 'allow_unclean_exit': False, 'tunnel_identifier': 'Saucie', 'ssh_port': 443, 'logfile': 'sauce-example.log', 'debug_ssh': False, 'domains': None, 'proxy_tunnel': False, 'proxy_user': '', 'no_ssl_bump_domains': '', 'rest_url': 'https://saucelabs.com/rest/v1', 'direct_domains': '', 'fast_fail_regexps': '', 'se_port': '4445', 'user': 'kylewelsby-os'}
+2015-02-02 22:58:36,704 - sauce_connect:617 - DEBUG - metadata: {'OwnerHost': '127.0.0.1', 'Platform': 'Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64', 'PythonVersion': '2.5.1', 'Ports': ['80'], 'ScriptRelease': 50, 'OwnerPorts': ['58473'], 'Build': '50', 'ScriptName': 'sauce_connect', 'Release': '3.1-r32'}
+2015-02-02 22:58:36,706 - sauce_connect:619 - INFO - Forwarding: None:['80'] -> 127.0.0.1:['58473']
+2015-02-02 22:58:36,713 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:58473 in 2ms
+2015-02-02 22:58:37,345 - sauce_connect:265 - INFO - {"tunnel_identifier":"Saucie","metadata":{"OwnerHost":"127.0.0.1","Platform":"Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64","PythonVersion":"2.5.1","Ports":["80"],"ScriptRelease":50,"OwnerPorts":["58473"],"Build":"50","ScriptName":"sauce_connect","Release":"3.1-r32"},"ssh_port":443,"squid_config":null,"use_caching_proxy":true,"no_ssl_bump_domains":null,"use_kgp":true,"domain_names":[],"direct_domains":null,"vm_version":"","fast_fail_regexps":null,"shared_tunnel":false}
+2015-02-02 22:58:41,167 - sauce_connect:276 - INFO - Tunnel remote VM is provisioned (f72add12195749c0afe20d378a0db082)
+2015-02-02 22:58:41,618 - sauce_connect:294 - INFO - Tunnel remote VM is booting ..
+2015-02-02 22:58:44,836 - sauce_connect:298 - INFO - Tunnel remote VM is running at maki77005.miso.saucelabs.com
+2015-02-02 22:58:44,848 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:58473 in 0ms
+2015-02-02 22:58:44,849 - sauce_connect:696 - INFO - Starting connection to tunnel host...
+2015-02-02 22:58:44,851 - sauce_connect:696 - INFO - Connecting to tunnel host maki77005.miso.saucelabs.com as kylewelsby-os
+2015-02-02 22:58:44,917 - sauce_connect:696 - INFO - Forwarding Selenium with ephemeral port 58510
+2015-02-02 22:58:44,921 - sauce_connect:696 - INFO - Selenium HTTP proxy listening on port 4445
+2015-02-02 22:58:46,019 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2015-02-02 22:58:46,023 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 22bc9379814d47e28e6c63c34c10eb52
+2015-02-02 22:58:46,023 - sauce_connect:696 - INFO - Connected! You may start your tests.
+2015-02-02 22:58:56,459 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/
+2015-02-02 22:58:56,477 - sauce_connect:0 - INFO - GET http://localhost:11140/ -> 200 (19ms, 859 bytes)
+2015-02-02 22:58:56,717 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/testem/jasmine.js
+2015-02-02 22:58:56,723 - sauce_connect:0 - INFO - GET http://localhost:11140/testem/jasmine.js -> 200 (5ms, 70892 bytes)
+2015-02-02 22:58:56,729 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/testem.js
+2015-02-02 22:58:56,730 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/testem/jasmine-html.js
+2015-02-02 22:58:56,730 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/bower_components/angular-1.4.0/angular.js
+2015-02-02 22:58:56,732 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/.tmp/src/angular-post-message.js
+2015-02-02 22:58:56,736 - sauce_connect:0 - INFO - GET http://localhost:11140/.tmp/src/angular-post-message.js -> 200 (5ms, 2151 bytes)
+2015-02-02 22:58:56,739 - sauce_connect:0 - INFO - GET http://localhost:11140/testem/jasmine-html.js -> 200 (9ms, 20797 bytes)
+2015-02-02 22:58:56,739 - sauce_connect:0 - INFO - GET http://localhost:11140/testem.js -> 200 (10ms, 193000 bytes)
+2015-02-02 22:58:56,753 - sauce_connect:0 - INFO - GET http://localhost:11140/bower_components/angular-1.4.0/angular.js -> 200 (24ms, 957175 bytes)
+2015-02-02 22:58:56,911 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/bower_components/angular-mocks-1.4.0/angular-mocks.js
+2015-02-02 22:58:56,911 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/.tmp/tests/angular-post-message-directive.js
+2015-02-02 22:58:56,913 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/.tmp/tests/angular-post-message.js
+2015-02-02 22:58:56,914 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/testem/jasmine.css
+2015-02-02 22:58:56,918 - sauce_connect:0 - INFO - GET http://localhost:11140/.tmp/tests/angular-post-message-directive.js -> 200 (7ms, 1873 bytes)
+2015-02-02 22:58:56,920 - sauce_connect:0 - INFO - GET http://localhost:11140/bower_components/angular-mocks-1.4.0/angular-mocks.js -> 200 (7ms, 79680 bytes)
+2015-02-02 22:58:56,920 - sauce_connect:0 - INFO - GET http://localhost:11140/.tmp/tests/angular-post-message.js -> 200 (7ms, 1687 bytes)
+2015-02-02 22:58:56,920 - sauce_connect:0 - INFO - GET http://localhost:11140/testem/jasmine.css -> 200 (6ms, 6537 bytes)
+2015-02-02 22:58:58,434 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889136803-0
+2015-02-02 22:58:58,438 - sauce_connect:0 - INFO - GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889136803-0 -> 200 (4ms, 101 bytes)
+2015-02-02 22:58:58,825 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889137302-1&sid=6tj7l6HfuwSM8N6tAAAB
+2015-02-02 22:58:58,828 - sauce_connect:0 - INFO - GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889137302-1&sid=6tj7l6HfuwSM8N6tAAAB -> 200 (3ms, 5 bytes)
+2015-02-02 22:58:59,019 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/favicon.ico
+2015-02-02 22:58:59,023 - sauce_connect:0 - INFO - GET http://localhost:11140/favicon.ico -> 404 (4ms, 23 bytes)
+2015-02-02 22:58:59,042 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889137546-3&sid=6tj7l6HfuwSM8N6tAAAB
+2015-02-02 22:58:59,210 - sauce_connect:0 - INFO - Request started: POST http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889137542-2&sid=6tj7l6HfuwSM8N6tAAAB
+2015-02-02 22:58:59,213 - sauce_connect:0 - INFO - POST http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889137542-2&sid=6tj7l6HfuwSM8N6tAAAB -> 200 (2ms, 2 bytes)
+2015-02-02 22:58:59,404 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/favicon.ico
+2015-02-02 22:58:59,408 - sauce_connect:0 - INFO - GET http://localhost:11140/favicon.ico -> 404 (4ms, 23 bytes)
+2015-02-02 22:58:59,801 - sauce_connect:0 - INFO - Request started: POST http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889138113-4&sid=6tj7l6HfuwSM8N6tAAAB
+2015-02-02 22:58:59,805 - sauce_connect:0 - INFO - POST http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889138113-4&sid=6tj7l6HfuwSM8N6tAAAB -> 200 (4ms, 2 bytes)
+2015-02-02 22:59:02,864 - sauce_connect:0 - INFO - received SIGTERM
+2015-02-02 22:59:15,033 - sauce_connect:601 - INFO - / Starting \
+2015-02-02 22:59:15,036 - sauce_connect:602 - INFO - Please wait for "You may start your tests" to start your tests.
+2015-02-02 22:59:15,039 - sauce_connect:614 - DEBUG - System is 8.0 hours off UTC
+2015-02-02 22:59:15,040 - sauce_connect:616 - DEBUG - options: {'use_ssh_config': False, 'boost_mode': True, 'ssh': False, 'proxy_password': '', 'ports': ['58676'], 'vm_version': '', 'squid_opts': '', 'logfilesize': '31457280', 'readyfile': '/Users/kyle/Code/OpenSource/angular-post-message/node_modules/saucie/node_modules/sauce-connect-launcher/lib/readyfile', 'tunnel_ports': ['80'], 'proxy_host': '', 'host': '127.0.0.1', 'latency_log': 150, 'quiet': False, 'shared_tunnel': False, 'proxy_port': '', 'allow_unclean_exit': False, 'tunnel_identifier': 'Saucie', 'ssh_port': 443, 'logfile': 'sauce-example.log', 'debug_ssh': False, 'domains': None, 'proxy_tunnel': False, 'proxy_user': '', 'no_ssl_bump_domains': '', 'rest_url': 'https://saucelabs.com/rest/v1', 'direct_domains': '', 'fast_fail_regexps': '', 'se_port': '4445', 'user': 'kylewelsby-os'}
+2015-02-02 22:59:15,040 - sauce_connect:617 - DEBUG - metadata: {'OwnerHost': '127.0.0.1', 'Platform': 'Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64', 'PythonVersion': '2.5.1', 'Ports': ['80'], 'ScriptRelease': 50, 'OwnerPorts': ['58676'], 'Build': '50', 'ScriptName': 'sauce_connect', 'Release': '3.1-r32'}
+2015-02-02 22:59:15,042 - sauce_connect:619 - INFO - Forwarding: None:['80'] -> 127.0.0.1:['58676']
+2015-02-02 22:59:15,046 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:58676 in 2ms
+2015-02-02 22:59:20,101 - sauce_connect:265 - INFO - {"tunnel_identifier":"Saucie","metadata":{"OwnerHost":"127.0.0.1","Platform":"Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64","PythonVersion":"2.5.1","Ports":["80"],"ScriptRelease":50,"OwnerPorts":["58676"],"Build":"50","ScriptName":"sauce_connect","Release":"3.1-r32"},"ssh_port":443,"squid_config":null,"use_caching_proxy":true,"no_ssl_bump_domains":null,"use_kgp":true,"domain_names":[],"direct_domains":null,"vm_version":"","fast_fail_regexps":null,"shared_tunnel":false}
+2015-02-02 22:59:24,542 - sauce_connect:276 - INFO - Tunnel remote VM is provisioned (d79c9b43a93d4f449ba626a17a4ed8b1)
+2015-02-02 22:59:24,747 - sauce_connect:294 - INFO - Tunnel remote VM is booting ..
+2015-02-02 22:59:27,967 - sauce_connect:298 - INFO - Tunnel remote VM is running at maki77113.miso.saucelabs.com
+2015-02-02 22:59:27,979 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:58676 in 0ms
+2015-02-02 22:59:27,980 - sauce_connect:696 - INFO - Starting connection to tunnel host...
+2015-02-02 22:59:27,980 - sauce_connect:696 - INFO - Connecting to tunnel host maki77113.miso.saucelabs.com as kylewelsby-os
+2015-02-02 22:59:28,048 - sauce_connect:696 - INFO - Forwarding Selenium with ephemeral port 58736
+2015-02-02 22:59:28,052 - sauce_connect:696 - INFO - Selenium HTTP proxy listening on port 4445
+2015-02-02 22:59:29,145 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2015-02-02 22:59:29,151 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: da4bcd3cf1724c51a8a226264b380ec7
+2015-02-02 22:59:29,151 - sauce_connect:696 - INFO - Connected! You may start your tests.
+2015-02-02 22:59:37,730 - sauce_connect:0 - INFO - Request started: HEAD http://redir.opera.com/speeddials/previews/ebay/us
+2015-02-02 22:59:38,493 - sauce_connect:0 - INFO - HEAD http://redir.opera.com/speeddials/previews/ebay/us -> 302 (762ms, 0 bytes)
+2015-02-02 22:59:38,823 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/
+2015-02-02 22:59:38,829 - sauce_connect:0 - INFO - GET http://localhost:11140/ -> 200 (6ms, 859 bytes)
+2015-02-02 22:59:39,492 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/testem/jasmine.js
+2015-02-02 22:59:39,493 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/testem.js
+2015-02-02 22:59:39,496 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/testem/jasmine-html.js
+2015-02-02 22:59:39,496 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/bower_components/angular-1.4.0/angular.js
+2015-02-02 22:59:39,499 - sauce_connect:0 - INFO - GET http://localhost:11140/testem/jasmine.js -> 200 (7ms, 70892 bytes)
+2015-02-02 22:59:39,500 - sauce_connect:0 - INFO - GET http://localhost:11140/testem/jasmine-html.js -> 200 (5ms, 20797 bytes)
+2015-02-02 22:59:39,507 - sauce_connect:0 - INFO - GET http://localhost:11140/testem.js -> 200 (16ms, 193000 bytes)
+2015-02-02 22:59:39,513 - sauce_connect:0 - INFO - GET http://localhost:11140/bower_components/angular-1.4.0/angular.js -> 200 (18ms, 957175 bytes)
+2015-02-02 22:59:39,661 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/.tmp/src/angular-post-message.js
+2015-02-02 22:59:39,661 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/bower_components/angular-mocks-1.4.0/angular-mocks.js
+2015-02-02 22:59:39,664 - sauce_connect:0 - INFO - GET http://localhost:11140/.tmp/src/angular-post-message.js -> 200 (4ms, 2151 bytes)
+2015-02-02 22:59:39,667 - sauce_connect:0 - INFO - GET http://localhost:11140/bower_components/angular-mocks-1.4.0/angular-mocks.js -> 200 (6ms, 79680 bytes)
+2015-02-02 22:59:40,573 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/.tmp/tests/angular-post-message-directive.js
+2015-02-02 22:59:40,578 - sauce_connect:0 - INFO - GET http://localhost:11140/.tmp/tests/angular-post-message-directive.js -> 200 (4ms, 1873 bytes)
+2015-02-02 22:59:40,782 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/testem/jasmine.css
+2015-02-02 22:59:40,786 - sauce_connect:0 - INFO - GET http://localhost:11140/testem/jasmine.css -> 200 (3ms, 6537 bytes)
+2015-02-02 22:59:41,578 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/.tmp/tests/angular-post-message.js
+2015-02-02 22:59:41,582 - sauce_connect:0 - INFO - GET http://localhost:11140/.tmp/tests/angular-post-message.js -> 200 (3ms, 1687 bytes)
+2015-02-02 22:59:45,538 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889180117-0
+2015-02-02 22:59:45,540 - sauce_connect:0 - INFO - GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889180117-0 -> 200 (3ms, 101 bytes)
+2015-02-02 22:59:45,734 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/testem/jasmine-html.js
+2015-02-02 22:59:45,737 - sauce_connect:0 - INFO - GET http://localhost:11140/testem/jasmine-html.js -> 200 (3ms, 20797 bytes)
+2015-02-02 22:59:46,540 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889185037-1&sid=rRoujBTTaU0dDCqYAAAC
+2015-02-02 22:59:46,543 - sauce_connect:0 - INFO - GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889185037-1&sid=rRoujBTTaU0dDCqYAAAC -> 200 (3ms, 5 bytes)
+2015-02-02 22:59:46,746 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/bower_components/angular-1.4.0/angular.js
+2015-02-02 22:59:46,756 - sauce_connect:0 - INFO - GET http://localhost:11140/bower_components/angular-1.4.0/angular.js -> 200 (10ms, 957175 bytes)
+2015-02-02 22:59:46,950 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889185451-3&sid=rRoujBTTaU0dDCqYAAAC
+2015-02-02 22:59:47,148 - sauce_connect:0 - INFO - Request started: POST http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889185450-2&sid=rRoujBTTaU0dDCqYAAAC
+2015-02-02 22:59:47,151 - sauce_connect:0 - INFO - POST http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889185450-2&sid=rRoujBTTaU0dDCqYAAAC -> 200 (3ms, 2 bytes)
+2015-02-02 22:59:51,911 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/.tmp/src/angular-post-message.js
+2015-02-02 22:59:51,914 - sauce_connect:0 - INFO - GET http://localhost:11140/.tmp/src/angular-post-message.js -> 200 (4ms, 2151 bytes)
+2015-02-02 22:59:52,301 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/bower_components/angular-mocks-1.4.0/angular-mocks.js
+2015-02-02 22:59:52,305 - sauce_connect:0 - INFO - GET http://localhost:11140/bower_components/angular-mocks-1.4.0/angular-mocks.js -> 200 (4ms, 79680 bytes)
+2015-02-02 22:59:52,750 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/.tmp/tests/angular-post-message-directive.js
+2015-02-02 22:59:52,753 - sauce_connect:0 - INFO - GET http://localhost:11140/.tmp/tests/angular-post-message-directive.js -> 200 (4ms, 1873 bytes)
+2015-02-02 22:59:52,957 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/.tmp/tests/angular-post-message.js
+2015-02-02 22:59:52,960 - sauce_connect:0 - INFO - GET http://localhost:11140/.tmp/tests/angular-post-message.js -> 200 (3ms, 1687 bytes)
+2015-02-02 22:59:53,290 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/favicon.ico
+2015-02-02 22:59:53,296 - sauce_connect:0 - INFO - GET http://localhost:11140/favicon.ico -> 404 (6ms, 23 bytes)
+2015-02-02 22:59:53,357 - sauce_connect:0 - INFO - Request started: POST http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889191785-4&sid=rRoujBTTaU0dDCqYAAAC
+2015-02-02 22:59:53,359 - sauce_connect:0 - INFO - POST http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889191785-4&sid=rRoujBTTaU0dDCqYAAAC -> 200 (3ms, 2 bytes)
+2015-02-02 22:59:53,954 - sauce_connect:0 - INFO - Request started: POST http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889192253-5&sid=rRoujBTTaU0dDCqYAAAC
+2015-02-02 22:59:53,959 - sauce_connect:0 - INFO - POST http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889192253-5&sid=rRoujBTTaU0dDCqYAAAC -> 200 (4ms, 2 bytes)
+2015-02-02 22:59:57,092 - sauce_connect:0 - INFO - received SIGTERM
+2015-02-02 23:00:08,164 - sauce_connect:601 - INFO - / Starting \
+2015-02-02 23:00:08,168 - sauce_connect:602 - INFO - Please wait for "You may start your tests" to start your tests.
+2015-02-02 23:00:08,173 - sauce_connect:614 - DEBUG - System is 8.0 hours off UTC
+2015-02-02 23:00:08,174 - sauce_connect:616 - DEBUG - options: {'use_ssh_config': False, 'boost_mode': True, 'ssh': False, 'proxy_password': '', 'ports': ['58988'], 'vm_version': '', 'squid_opts': '', 'logfilesize': '31457280', 'readyfile': '/Users/kyle/Code/OpenSource/angular-post-message/node_modules/saucie/node_modules/sauce-connect-launcher/lib/readyfile', 'tunnel_ports': ['80'], 'proxy_host': '', 'host': '127.0.0.1', 'latency_log': 150, 'quiet': False, 'shared_tunnel': False, 'proxy_port': '', 'allow_unclean_exit': False, 'tunnel_identifier': 'Saucie', 'ssh_port': 443, 'logfile': 'sauce-example.log', 'debug_ssh': False, 'domains': None, 'proxy_tunnel': False, 'proxy_user': '', 'no_ssl_bump_domains': '', 'rest_url': 'https://saucelabs.com/rest/v1', 'direct_domains': '', 'fast_fail_regexps': '', 'se_port': '4445', 'user': 'kylewelsby-os'}
+2015-02-02 23:00:08,174 - sauce_connect:617 - DEBUG - metadata: {'OwnerHost': '127.0.0.1', 'Platform': 'Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64', 'PythonVersion': '2.5.1', 'Ports': ['80'], 'ScriptRelease': 50, 'OwnerPorts': ['58988'], 'Build': '50', 'ScriptName': 'sauce_connect', 'Release': '3.1-r32'}
+2015-02-02 23:00:08,174 - sauce_connect:619 - INFO - Forwarding: None:['80'] -> 127.0.0.1:['58988']
+2015-02-02 23:00:08,181 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:58988 in 3ms
+2015-02-02 23:00:08,392 - sauce_connect:265 - INFO - {"tunnel_identifier":"Saucie","metadata":{"OwnerHost":"127.0.0.1","Platform":"Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64","PythonVersion":"2.5.1","Ports":["80"],"ScriptRelease":50,"OwnerPorts":["58988"],"Build":"50","ScriptName":"sauce_connect","Release":"3.1-r32"},"ssh_port":443,"squid_config":null,"use_caching_proxy":true,"no_ssl_bump_domains":null,"use_kgp":true,"domain_names":[],"direct_domains":null,"vm_version":"","fast_fail_regexps":null,"shared_tunnel":false}
+2015-02-02 23:00:13,160 - sauce_connect:276 - INFO - Tunnel remote VM is provisioned (5e193f624c57432a804e408de4869171)
+2015-02-02 23:00:13,677 - sauce_connect:294 - INFO - Tunnel remote VM is booting ..
+2015-02-02 23:00:21,049 - sauce_connect:298 - INFO - Tunnel remote VM is running at maki77208.miso.saucelabs.com
+2015-02-02 23:00:21,059 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:58988 in 1ms
+2015-02-02 23:00:21,062 - sauce_connect:696 - INFO - Starting connection to tunnel host...
+2015-02-02 23:00:21,062 - sauce_connect:696 - INFO - Connecting to tunnel host maki77208.miso.saucelabs.com as kylewelsby-os
+2015-02-02 23:00:21,131 - sauce_connect:696 - INFO - Forwarding Selenium with ephemeral port 59049
+2015-02-02 23:00:21,134 - sauce_connect:696 - INFO - Selenium HTTP proxy listening on port 4445
+2015-02-02 23:00:22,516 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2015-02-02 23:00:22,519 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 8c2aa8a1dc1c462081ac12a1650ae47e
+2015-02-02 23:00:22,522 - sauce_connect:696 - INFO - Connected! You may start your tests.
+2015-02-02 23:00:31,917 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/
+2015-02-02 23:00:31,941 - sauce_connect:0 - INFO - GET http://localhost:11140/ -> 200 (24ms, 859 bytes)
+2015-02-02 23:00:32,318 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/testem/jasmine.js
+2015-02-02 23:00:32,319 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/bower_components/angular-1.4.0/angular.js
+2015-02-02 23:00:32,322 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/testem/jasmine-html.js
+2015-02-02 23:00:32,325 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/bower_components/angular-mocks-1.4.0/angular-mocks.js
+2015-02-02 23:00:32,326 - sauce_connect:0 - INFO - GET http://localhost:11140/testem/jasmine.js -> 200 (9ms, 70892 bytes)
+2015-02-02 23:00:32,329 - sauce_connect:0 - INFO - GET http://localhost:11140/testem/jasmine-html.js -> 200 (6ms, 20797 bytes)
+2015-02-02 23:00:32,332 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/testem.js
+2015-02-02 23:00:32,335 - sauce_connect:0 - INFO - GET http://localhost:11140/bower_components/angular-mocks-1.4.0/angular-mocks.js -> 200 (10ms, 79680 bytes)
+2015-02-02 23:00:32,344 - sauce_connect:0 - INFO - GET http://localhost:11140/bower_components/angular-1.4.0/angular.js -> 200 (25ms, 957175 bytes)
+2015-02-02 23:00:32,349 - sauce_connect:0 - INFO - GET http://localhost:11140/testem.js -> 200 (18ms, 193000 bytes)
+2015-02-02 23:00:32,519 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/.tmp/src/angular-post-message.js
+2015-02-02 23:00:32,523 - sauce_connect:0 - INFO - GET http://localhost:11140/.tmp/src/angular-post-message.js -> 200 (4ms, 2151 bytes)
+2015-02-02 23:00:33,303 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/.tmp/tests/angular-post-message-directive.js
+2015-02-02 23:00:33,308 - sauce_connect:0 - INFO - GET http://localhost:11140/.tmp/tests/angular-post-message-directive.js -> 200 (4ms, 1873 bytes)
+2015-02-02 23:00:33,519 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/.tmp/tests/angular-post-message.js
+2015-02-02 23:00:33,522 - sauce_connect:0 - INFO - GET http://localhost:11140/.tmp/tests/angular-post-message.js -> 200 (3ms, 1687 bytes)
+2015-02-02 23:00:33,749 - sauce_connect:601 - INFO - / Starting \
+2015-02-02 23:00:33,752 - sauce_connect:602 - INFO - Please wait for "You may start your tests" to start your tests.
+2015-02-02 23:00:33,756 - sauce_connect:614 - DEBUG - System is 8.0 hours off UTC
+2015-02-02 23:00:33,757 - sauce_connect:616 - DEBUG - options: {'use_ssh_config': False, 'boost_mode': True, 'ssh': False, 'proxy_password': '', 'ports': ['59122'], 'vm_version': '', 'squid_opts': '', 'logfilesize': '31457280', 'readyfile': '/usr/local/lib/node_modules/saucie/node_modules/sauce-connect-launcher/lib/readyfile', 'tunnel_ports': ['80'], 'proxy_host': '', 'host': '127.0.0.1', 'latency_log': 150, 'quiet': False, 'shared_tunnel': False, 'proxy_port': '', 'allow_unclean_exit': False, 'tunnel_identifier': 'Saucie', 'ssh_port': 443, 'logfile': 'sauce-example.log', 'debug_ssh': False, 'domains': None, 'proxy_tunnel': False, 'proxy_user': '', 'no_ssl_bump_domains': '', 'rest_url': 'https://saucelabs.com/rest/v1', 'direct_domains': '', 'fast_fail_regexps': '', 'se_port': '4445', 'user': 'kylewelsby'}
+2015-02-02 23:00:33,759 - sauce_connect:617 - DEBUG - metadata: {'OwnerHost': '127.0.0.1', 'Platform': 'Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64', 'PythonVersion': '2.5.1', 'Ports': ['80'], 'ScriptRelease': 50, 'OwnerPorts': ['59122'], 'Build': '50', 'ScriptName': 'sauce_connect', 'Release': '3.1-r32'}
+2015-02-02 23:00:33,759 - sauce_connect:619 - INFO - Forwarding: None:['80'] -> 127.0.0.1:['59122']
+2015-02-02 23:00:33,766 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:59122 in 3ms
+2015-02-02 23:00:34,167 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/testem/jasmine.css
+2015-02-02 23:00:34,171 - sauce_connect:0 - INFO - GET http://localhost:11140/testem/jasmine.css -> 200 (3ms, 6537 bytes)
+2015-02-02 23:00:35,009 - sauce_connect:265 - INFO - {"tunnel_identifier":"Saucie","metadata":{"OwnerHost":"127.0.0.1","Platform":"Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64","PythonVersion":"2.5.1","Ports":["80"],"ScriptRelease":50,"OwnerPorts":["59122"],"Build":"50","ScriptName":"sauce_connect","Release":"3.1-r32"},"ssh_port":443,"squid_config":null,"use_caching_proxy":true,"no_ssl_bump_domains":null,"use_kgp":true,"domain_names":[],"direct_domains":null,"vm_version":"","fast_fail_regexps":null,"shared_tunnel":false}
+2015-02-02 23:00:37,759 - sauce_connect:0 - INFO - received SIGINT
+2015-02-02 23:00:40,523 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889238024-0
+2015-02-02 23:00:40,526 - sauce_connect:0 - INFO - GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889238024-0 -> 200 (4ms, 101 bytes)
+2015-02-02 23:00:40,604 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/favicon.ico
+2015-02-02 23:00:40,608 - sauce_connect:0 - INFO - GET http://localhost:11140/favicon.ico -> 404 (4ms, 23 bytes)
+2015-02-02 23:00:40,796 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889238332-1&sid=OKpXrzBUOs7jgjcaAAAD
+2015-02-02 23:00:40,798 - sauce_connect:0 - INFO - GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889238332-1&sid=OKpXrzBUOs7jgjcaAAAD -> 200 (2ms, 5 bytes)
+2015-02-02 23:00:41,309 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889238722-3&sid=OKpXrzBUOs7jgjcaAAAD
+2015-02-02 23:00:41,309 - sauce_connect:0 - INFO - Request started: POST http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889238720-2&sid=OKpXrzBUOs7jgjcaAAAD
+2015-02-02 23:00:41,312 - sauce_connect:0 - INFO - POST http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889238720-2&sid=OKpXrzBUOs7jgjcaAAAD -> 200 (2ms, 2 bytes)
+2015-02-02 23:00:41,903 - sauce_connect:0 - INFO - Request started: POST http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889239341-4&sid=OKpXrzBUOs7jgjcaAAAD
+2015-02-02 23:00:41,908 - sauce_connect:0 - INFO - POST http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889239341-4&sid=OKpXrzBUOs7jgjcaAAAD -> 200 (6ms, 2 bytes)
+2015-02-02 23:00:42,937 - sauce_connect:0 - INFO - received SIGTERM
+2015-02-02 23:00:56,191 - sauce_connect:601 - INFO - / Starting \
+2015-02-02 23:00:56,194 - sauce_connect:602 - INFO - Please wait for "You may start your tests" to start your tests.
+2015-02-02 23:00:56,198 - sauce_connect:614 - DEBUG - System is 8.0 hours off UTC
+2015-02-02 23:00:56,200 - sauce_connect:616 - DEBUG - options: {'use_ssh_config': False, 'boost_mode': True, 'ssh': False, 'proxy_password': '', 'ports': ['59236'], 'vm_version': '', 'squid_opts': '', 'logfilesize': '31457280', 'readyfile': '/Users/kyle/Code/OpenSource/angular-post-message/node_modules/saucie/node_modules/sauce-connect-launcher/lib/readyfile', 'tunnel_ports': ['80'], 'proxy_host': '', 'host': '127.0.0.1', 'latency_log': 150, 'quiet': False, 'shared_tunnel': False, 'proxy_port': '', 'allow_unclean_exit': False, 'tunnel_identifier': 'Saucie', 'ssh_port': 443, 'logfile': 'sauce-example.log', 'debug_ssh': False, 'domains': None, 'proxy_tunnel': False, 'proxy_user': '', 'no_ssl_bump_domains': '', 'rest_url': 'https://saucelabs.com/rest/v1', 'direct_domains': '', 'fast_fail_regexps': '', 'se_port': '4445', 'user': 'kylewelsby-os'}
+2015-02-02 23:00:56,200 - sauce_connect:617 - DEBUG - metadata: {'OwnerHost': '127.0.0.1', 'Platform': 'Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64', 'PythonVersion': '2.5.1', 'Ports': ['80'], 'ScriptRelease': 50, 'OwnerPorts': ['59236'], 'Build': '50', 'ScriptName': 'sauce_connect', 'Release': '3.1-r32'}
+2015-02-02 23:00:56,200 - sauce_connect:619 - INFO - Forwarding: None:['80'] -> 127.0.0.1:['59236']
+2015-02-02 23:00:56,207 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:59236 in 1ms
+2015-02-02 23:00:56,582 - sauce_connect:265 - INFO - {"tunnel_identifier":"Saucie","metadata":{"OwnerHost":"127.0.0.1","Platform":"Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64","PythonVersion":"2.5.1","Ports":["80"],"ScriptRelease":50,"OwnerPorts":["59236"],"Build":"50","ScriptName":"sauce_connect","Release":"3.1-r32"},"ssh_port":443,"squid_config":null,"use_caching_proxy":true,"no_ssl_bump_domains":null,"use_kgp":true,"domain_names":[],"direct_domains":null,"vm_version":"","fast_fail_regexps":null,"shared_tunnel":false}
+2015-02-02 23:01:00,315 - sauce_connect:276 - INFO - Tunnel remote VM is provisioned (5371344b1a624867b14be28df63e2e15)
+2015-02-02 23:01:00,526 - sauce_connect:294 - INFO - Tunnel remote VM is booting ..
+2015-02-02 23:01:05,592 - sauce_connect:298 - INFO - Tunnel remote VM is running at maki77039.miso.saucelabs.com
+2015-02-02 23:01:05,601 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:59236 in 0ms
+2015-02-02 23:01:05,604 - sauce_connect:696 - INFO - Starting connection to tunnel host...
+2015-02-02 23:01:05,605 - sauce_connect:696 - INFO - Connecting to tunnel host maki77039.miso.saucelabs.com as kylewelsby-os
+2015-02-02 23:01:05,674 - sauce_connect:696 - INFO - Forwarding Selenium with ephemeral port 59286
+2015-02-02 23:01:05,677 - sauce_connect:696 - INFO - Selenium HTTP proxy listening on port 4445
+2015-02-02 23:01:06,822 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2015-02-02 23:01:06,825 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: d5d609cdda52458ea266e05cfccf05af
+2015-02-02 23:01:06,828 - sauce_connect:696 - INFO - Connected! You may start your tests.
+2015-02-02 23:01:13,719 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/
+2015-02-02 23:01:13,737 - sauce_connect:0 - INFO - GET http://localhost:11140/ -> 200 (18ms, 859 bytes)
+2015-02-02 23:01:13,973 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/testem.js
+2015-02-02 23:01:13,982 - sauce_connect:0 - INFO - GET http://localhost:11140/testem.js -> 200 (8ms, 193000 bytes)
+2015-02-02 23:01:14,165 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/testem/jasmine-html.js
+2015-02-02 23:01:14,167 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/testem/jasmine.js
+2015-02-02 23:01:14,171 - sauce_connect:0 - INFO - GET http://localhost:11140/testem/jasmine-html.js -> 200 (4ms, 20797 bytes)
+2015-02-02 23:01:14,171 - sauce_connect:0 - INFO - GET http://localhost:11140/testem/jasmine.js -> 200 (4ms, 70892 bytes)
+2015-02-02 23:01:14,364 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/testem/jasmine.css
+2015-02-02 23:01:14,365 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/.tmp/src/angular-post-message.js
+2015-02-02 23:01:14,368 - sauce_connect:0 - INFO - GET http://localhost:11140/testem/jasmine.css -> 200 (5ms, 6537 bytes)
+2015-02-02 23:01:14,368 - sauce_connect:0 - INFO - GET http://localhost:11140/.tmp/src/angular-post-message.js -> 200 (4ms, 2151 bytes)
+2015-02-02 23:01:15,010 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/bower_components/angular-1.4.0/angular.js
+2015-02-02 23:01:15,025 - sauce_connect:0 - INFO - GET http://localhost:11140/bower_components/angular-1.4.0/angular.js -> 200 (15ms, 957175 bytes)
+2015-02-02 23:01:17,690 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/bower_components/angular-mocks-1.4.0/angular-mocks.js
+2015-02-02 23:01:17,701 - sauce_connect:0 - INFO - GET http://localhost:11140/bower_components/angular-mocks-1.4.0/angular-mocks.js -> 200 (12ms, 79680 bytes)
+2015-02-02 23:01:17,937 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/.tmp/tests/angular-post-message-directive.js
+2015-02-02 23:01:17,940 - sauce_connect:0 - INFO - GET http://localhost:11140/.tmp/tests/angular-post-message-directive.js -> 200 (3ms, 1873 bytes)
+2015-02-02 23:01:18,601 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889728026-0
+2015-02-02 23:01:18,602 - sauce_connect:0 - INFO - GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889728026-0 -> 200 (2ms, 101 bytes)
+2015-02-02 23:01:18,805 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/.tmp/tests/angular-post-message.js
+2015-02-02 23:01:18,809 - sauce_connect:0 - INFO - GET http://localhost:11140/.tmp/tests/angular-post-message.js -> 200 (3ms, 1687 bytes)
+2015-02-02 23:01:24,013 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889733413-1&sid=h0Z9hw78-dJSAjxPAAAE
+2015-02-02 23:01:24,016 - sauce_connect:0 - INFO - GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889733413-1&sid=h0Z9hw78-dJSAjxPAAAE -> 200 (2ms, 5 bytes)
+2015-02-02 23:01:24,046 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/favicon.ico
+2015-02-02 23:01:24,049 - sauce_connect:0 - INFO - GET http://localhost:11140/favicon.ico -> 404 (3ms, 23 bytes)
+2015-02-02 23:01:24,229 - sauce_connect:0 - INFO - Request started: GET http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889733752-3&sid=h0Z9hw78-dJSAjxPAAAE
+2015-02-02 23:01:24,240 - sauce_connect:0 - INFO - Request started: POST http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889733750-2&sid=h0Z9hw78-dJSAjxPAAAE
+2015-02-02 23:01:24,243 - sauce_connect:0 - INFO - POST http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889733750-2&sid=h0Z9hw78-dJSAjxPAAAE -> 200 (2ms, 2 bytes)
+2015-02-02 23:01:24,829 - sauce_connect:0 - INFO - Request started: POST http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889734167-4&sid=h0Z9hw78-dJSAjxPAAAE
+2015-02-02 23:01:24,835 - sauce_connect:0 - INFO - POST http://localhost:11140/socket.io/?EIO=3&transport=polling&t=1422889734167-4&sid=h0Z9hw78-dJSAjxPAAAE -> 200 (5ms, 2 bytes)
+2015-02-02 23:01:26,295 - sauce_connect:0 - INFO - received SIGTERM
+2015-02-02 23:01:35,229 - sauce_connect:601 - INFO - / Starting \
+2015-02-02 23:01:35,232 - sauce_connect:602 - INFO - Please wait for "You may start your tests" to start your tests.
+2015-02-02 23:01:35,236 - sauce_connect:614 - DEBUG - System is 8.0 hours off UTC
+2015-02-02 23:01:35,236 - sauce_connect:616 - DEBUG - options: {'use_ssh_config': False, 'boost_mode': True, 'ssh': False, 'proxy_password': '', 'ports': ['59494'], 'vm_version': '', 'squid_opts': '', 'logfilesize': '31457280', 'readyfile': '/Users/kyle/Code/OpenSource/angular-post-message/node_modules/saucie/node_modules/sauce-connect-launcher/lib/readyfile', 'tunnel_ports': ['80'], 'proxy_host': '', 'host': '127.0.0.1', 'latency_log': 150, 'quiet': False, 'shared_tunnel': False, 'proxy_port': '', 'allow_unclean_exit': False, 'tunnel_identifier': 'Saucie', 'ssh_port': 443, 'logfile': 'sauce-example.log', 'debug_ssh': False, 'domains': None, 'proxy_tunnel': False, 'proxy_user': '', 'no_ssl_bump_domains': '', 'rest_url': 'https://saucelabs.com/rest/v1', 'direct_domains': '', 'fast_fail_regexps': '', 'se_port': '4445', 'user': 'kylewelsby-os'}
+2015-02-02 23:01:35,236 - sauce_connect:617 - DEBUG - metadata: {'OwnerHost': '127.0.0.1', 'Platform': 'Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64', 'PythonVersion': '2.5.1', 'Ports': ['80'], 'ScriptRelease': 50, 'OwnerPorts': ['59494'], 'Build': '50', 'ScriptName': 'sauce_connect', 'Release': '3.1-r32'}
+2015-02-02 23:01:35,237 - sauce_connect:619 - INFO - Forwarding: None:['80'] -> 127.0.0.1:['59494']
+2015-02-02 23:01:35,243 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:59494 in 2ms
+2015-02-02 23:01:36,059 - sauce_connect:265 - INFO - {"tunnel_identifier":"Saucie","metadata":{"OwnerHost":"127.0.0.1","Platform":"Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64","PythonVersion":"2.5.1","Ports":["80"],"ScriptRelease":50,"OwnerPorts":["59494"],"Build":"50","ScriptName":"sauce_connect","Release":"3.1-r32"},"ssh_port":443,"squid_config":null,"use_caching_proxy":true,"no_ssl_bump_domains":null,"use_kgp":true,"domain_names":[],"direct_domains":null,"vm_version":"","fast_fail_regexps":null,"shared_tunnel":false}
+2015-02-02 23:01:43,595 - sauce_connect:276 - INFO - Tunnel remote VM is provisioned (5c1b48853ee54e0585e23310a9ebece8)
+2015-02-02 23:01:43,809 - sauce_connect:298 - INFO - Tunnel remote VM is running at maki76077.miso.saucelabs.com
+2015-02-02 23:01:43,819 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:59494 in 0ms
+2015-02-02 23:01:43,822 - sauce_connect:696 - INFO - Starting connection to tunnel host...
+2015-02-02 23:01:43,823 - sauce_connect:696 - INFO - Connecting to tunnel host maki76077.miso.saucelabs.com as kylewelsby-os
+2015-02-02 23:01:43,894 - sauce_connect:696 - INFO - Forwarding Selenium with ephemeral port 59560
+2015-02-02 23:01:43,898 - sauce_connect:696 - INFO - Selenium HTTP proxy listening on port 4445
+2015-02-02 23:01:45,082 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2015-02-02 23:01:45,085 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: c16ff32f67b54931a19e091686fb9ff0
+2015-02-02 23:01:45,086 - sauce_connect:696 - INFO - Connected! You may start your tests.
+2015-02-02 23:03:41,132 - sauce_connect:601 - INFO - / Starting \
+2015-02-02 23:03:41,137 - sauce_connect:602 - INFO - Please wait for "You may start your tests" to start your tests.
+2015-02-02 23:03:41,140 - sauce_connect:614 - DEBUG - System is 8.0 hours off UTC
+2015-02-02 23:03:41,141 - sauce_connect:616 - DEBUG - options: {'use_ssh_config': False, 'boost_mode': True, 'ssh': False, 'proxy_password': '', 'ports': ['60110'], 'vm_version': '', 'squid_opts': '', 'logfilesize': '31457280', 'readyfile': '/usr/local/lib/node_modules/saucie/node_modules/sauce-connect-launcher/lib/readyfile', 'tunnel_ports': ['80'], 'proxy_host': '', 'host': '127.0.0.1', 'latency_log': 150, 'quiet': False, 'shared_tunnel': False, 'proxy_port': '', 'allow_unclean_exit': False, 'tunnel_identifier': 'Saucie', 'ssh_port': 443, 'logfile': 'sauce-example.log', 'debug_ssh': False, 'domains': None, 'proxy_tunnel': False, 'proxy_user': '', 'no_ssl_bump_domains': '', 'rest_url': 'https://saucelabs.com/rest/v1', 'direct_domains': '', 'fast_fail_regexps': '', 'se_port': '4445', 'user': 'kylewelsby'}
+2015-02-02 23:03:41,141 - sauce_connect:617 - DEBUG - metadata: {'OwnerHost': '127.0.0.1', 'Platform': 'Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64', 'PythonVersion': '2.5.1', 'Ports': ['80'], 'ScriptRelease': 50, 'OwnerPorts': ['60110'], 'Build': '50', 'ScriptName': 'sauce_connect', 'Release': '3.1-r32'}
+2015-02-02 23:03:41,142 - sauce_connect:619 - INFO - Forwarding: None:['80'] -> 127.0.0.1:['60110']
+2015-02-02 23:03:41,150 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:60110 in 3ms
+2015-02-02 23:03:41,430 - sauce_connect:219 - WARNING - NOTICE: Already running tunnels exist that would collide with this instance of Connect. Shutting them down before starting.
+Read http://saucelabs.com/docs/connect#tunnel-identifier for more details.
+2015-02-02 23:03:41,430 - sauce_connect:230 - INFO - Shutting down tunnel VM: c427953db14c461cbc902c2054fc7b29 running under the same identifier
+2015-02-02 23:03:51,742 - sauce_connect:265 - INFO - {"tunnel_identifier":"Saucie","metadata":{"OwnerHost":"127.0.0.1","Platform":"Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64","PythonVersion":"2.5.1","Ports":["80"],"ScriptRelease":50,"OwnerPorts":["60110"],"Build":"50","ScriptName":"sauce_connect","Release":"3.1-r32"},"ssh_port":443,"squid_config":null,"use_caching_proxy":true,"no_ssl_bump_domains":null,"use_kgp":true,"domain_names":[],"direct_domains":null,"vm_version":"","fast_fail_regexps":null,"shared_tunnel":false}
+2015-02-02 23:03:56,355 - sauce_connect:276 - INFO - Tunnel remote VM is provisioned (8f92ebecb7b347a99879cbfc69f4ea55)
+2015-02-02 23:03:59,035 - sauce_connect:294 - INFO - Tunnel remote VM is booting ..
+2015-02-02 23:04:02,782 - sauce_connect:298 - INFO - Tunnel remote VM is running at maki78186.miso.saucelabs.com
+2015-02-02 23:04:02,793 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:60110 in 0ms
+2015-02-02 23:04:02,796 - sauce_connect:696 - INFO - Starting connection to tunnel host...
+2015-02-02 23:04:02,796 - sauce_connect:696 - INFO - Connecting to tunnel host maki78186.miso.saucelabs.com as kylewelsby
+2015-02-02 23:04:02,865 - sauce_connect:696 - INFO - Forwarding Selenium with ephemeral port 60207
+2015-02-02 23:04:02,868 - sauce_connect:696 - INFO - Selenium HTTP proxy listening on port 4445
+2015-02-02 23:04:04,049 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2015-02-02 23:04:04,053 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 3b840db034274656b13257a382c24c01
+2015-02-02 23:04:04,055 - sauce_connect:696 - INFO - Connected! You may start your tests.
+2015-02-02 23:04:12,482 - sauce_connect:0 - INFO - Request started: GET http://localhost:8080/
+2015-02-02 23:04:12,492 - sauce_connect:0 - INFO - GET http://localhost:8080/ -> 404 (10ms, 0 bytes)
+2015-02-02 23:04:12,927 - sauce_connect:0 - INFO - Request started: GET http://localhost:8080/favicon.ico
+2015-02-02 23:04:12,931 - sauce_connect:0 - INFO - GET http://localhost:8080/favicon.ico -> 404 (4ms, 0 bytes)
+2015-02-02 23:04:17,065 - sauce_connect:0 - INFO - received SIGTERM
+2015-02-02 23:08:41,079 - sauce_connect:0 - INFO - Sauce Connect connection stalled! 384/386 acks, 2776ms since last recv, 2720ms timeout exceeded, min ack: 196
+2015-02-02 23:08:41,082 - sauce_connect:0 - INFO - disconnected from Sauce Connect server
+2015-02-02 23:08:41,084 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:08:43,568 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2015-02-02 23:08:43,568 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: c16ff32f67b54931a19e091686fb9ff0
+2015-02-02 23:08:43,569 - sauce_connect:0 - INFO - resending 1 packets
+2015-02-02 23:09:41,035 - sauce_connect:0 - INFO - disconnected from Sauce Connect server
+2015-02-02 23:09:41,036 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:09:41,969 - sauce_connect:0 - INFO - old keepalive timer shutting down
+2015-02-02 23:09:42,927 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2015-02-02 23:09:42,927 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: c16ff32f67b54931a19e091686fb9ff0
+2015-02-02 23:09:42,927 - sauce_connect:0 - INFO - resending 1 packets
+2015-02-02 23:10:35,645 - sauce_connect:0 - INFO - disconnected from Sauce Connect server
+2015-02-02 23:10:35,648 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:10:36,428 - sauce_connect:0 - INFO - old keepalive timer shutting down
+2015-02-02 23:10:46,703 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:10:46,704 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:10:48,668 - sauce_connect:696 - INFO - status check found tunnel in terminated
+2015-02-02 23:10:48,668 - sauce_connect:696 - INFO - Remote tunnel VM no longer running, shutting down
+2015-02-02 23:10:48,671 - sauce_connect:0 - INFO - asked to close connection to Sauce Connect server
+2015-02-02 23:10:48,779 - sauce_connect:702 - INFO - Finished running tunnel
+2015-02-02 23:10:48,779 - sauce_connect:307 - INFO - Shutting down tunnel remote VM (please wait)
+2015-02-02 23:10:48,779 - sauce_connect:308 - DEBUG - tunnel remote VM ID: 5c1b48853ee54e0585e23310a9ebece8
+2015-02-02 23:10:51,316 - sauce_connect:330 - INFO - Finished shutting down tunnel remote VM
+2015-02-02 23:10:51,316 - sauce_connect:431 - INFO - \ Exiting /
+2015-02-02 23:10:56,121 - sauce_connect:601 - INFO - / Starting \
+2015-02-02 23:10:56,125 - sauce_connect:602 - INFO - Please wait for "You may start your tests" to start your tests.
+2015-02-02 23:10:56,131 - sauce_connect:614 - DEBUG - System is 8.0 hours off UTC
+2015-02-02 23:10:56,132 - sauce_connect:616 - DEBUG - options: {'use_ssh_config': False, 'boost_mode': True, 'ssh': False, 'proxy_password': '', 'ports': ['62466'], 'vm_version': '', 'squid_opts': '', 'logfilesize': '31457280', 'readyfile': '/Users/kyle/Code/OpenSource/angular-post-message/node_modules/saucie/node_modules/sauce-connect-launcher/lib/readyfile', 'tunnel_ports': ['80'], 'proxy_host': '', 'host': '127.0.0.1', 'latency_log': 150, 'quiet': False, 'shared_tunnel': False, 'proxy_port': '', 'allow_unclean_exit': False, 'tunnel_identifier': 'Saucie', 'ssh_port': 443, 'logfile': 'sauce-example.log', 'debug_ssh': False, 'domains': None, 'proxy_tunnel': False, 'proxy_user': '', 'no_ssl_bump_domains': '', 'rest_url': 'https://saucelabs.com/rest/v1', 'direct_domains': '', 'fast_fail_regexps': '', 'se_port': '4445', 'user': 'kylewelsby-os'}
+2015-02-02 23:10:56,132 - sauce_connect:617 - DEBUG - metadata: {'OwnerHost': '127.0.0.1', 'Platform': 'Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64', 'PythonVersion': '2.5.1', 'Ports': ['80'], 'ScriptRelease': 50, 'OwnerPorts': ['62466'], 'Build': '50', 'ScriptName': 'sauce_connect', 'Release': '3.1-r32'}
+2015-02-02 23:10:56,134 - sauce_connect:619 - INFO - Forwarding: None:['80'] -> 127.0.0.1:['62466']
+2015-02-02 23:10:56,141 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:62466 in 3ms
+2015-02-02 23:10:56,364 - sauce_connect:219 - WARNING - NOTICE: Already running tunnels exist that would collide with this instance of Connect. Shutting them down before starting.
+Read http://saucelabs.com/docs/connect#tunnel-identifier for more details.
+2015-02-02 23:10:56,365 - sauce_connect:230 - INFO - Shutting down tunnel VM: 06c960b81b1d4734a6983be00e03ac4b running under the same identifier
+2015-02-02 23:11:06,911 - sauce_connect:265 - INFO - {"tunnel_identifier":"Saucie","metadata":{"OwnerHost":"127.0.0.1","Platform":"Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64","PythonVersion":"2.5.1","Ports":["80"],"ScriptRelease":50,"OwnerPorts":["62466"],"Build":"50","ScriptName":"sauce_connect","Release":"3.1-r32"},"ssh_port":443,"squid_config":null,"use_caching_proxy":true,"no_ssl_bump_domains":null,"use_kgp":true,"domain_names":[],"direct_domains":null,"vm_version":"","fast_fail_regexps":null,"shared_tunnel":false}
+2015-02-02 23:11:12,677 - sauce_connect:276 - INFO - Tunnel remote VM is provisioned (6bcbdcf2874d4e35aaaea0f59111b441)
+2015-02-02 23:11:12,894 - sauce_connect:294 - INFO - Tunnel remote VM is booting ..
+2015-02-02 23:11:17,101 - sauce_connect:298 - INFO - Tunnel remote VM is running at maki76059.miso.saucelabs.com
+2015-02-02 23:11:17,112 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:62466 in 0ms
+2015-02-02 23:11:17,115 - sauce_connect:696 - INFO - Starting connection to tunnel host...
+2015-02-02 23:11:17,115 - sauce_connect:696 - INFO - Connecting to tunnel host maki76059.miso.saucelabs.com as kylewelsby-os
+2015-02-02 23:11:17,186 - sauce_connect:696 - INFO - Forwarding Selenium with ephemeral port 62561
+2015-02-02 23:11:17,188 - sauce_connect:696 - INFO - Selenium HTTP proxy listening on port 4445
+2015-02-02 23:11:17,506 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:11:17,510 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:11:28,530 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:11:28,532 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:11:39,631 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:11:39,632 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:11:50,727 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:11:50,729 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:12:01,829 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:12:01,832 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:12:12,930 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:12:12,933 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:12:24,032 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:12:24,033 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:12:35,132 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:12:35,134 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:12:46,230 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:12:46,233 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:12:57,328 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:12:57,328 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:13:08,428 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:13:08,430 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:13:19,529 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:13:19,530 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:13:30,628 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:13:30,630 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:13:41,733 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:13:41,734 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:13:52,828 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:13:52,829 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:14:03,927 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:14:03,928 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:14:15,025 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:14:15,026 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:14:26,125 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:14:26,127 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:14:37,223 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:14:37,224 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:14:48,332 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:14:48,332 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:14:59,427 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:14:59,427 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:15:10,526 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:15:10,528 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:15:21,624 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:15:21,625 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:15:32,730 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:15:32,730 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:15:43,828 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:15:43,829 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:15:54,931 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:15:54,933 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:16:06,028 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:16:06,029 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:16:17,128 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:16:17,130 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:16:28,227 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:16:28,229 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:16:39,328 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:16:39,329 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:16:50,427 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:16:50,428 - sauce_connect:0 - INFO - Connection failed
+2015-02-02 23:17:00,101 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2015-02-02 23:17:00,105 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 8b625ecce1ed452ea218e69891d85db8
+2015-02-02 23:17:00,107 - sauce_connect:696 - INFO - Connected! You may start your tests.
+2015-02-02 23:17:00,499 - sauce_connect:0 - INFO - disconnected from Sauce Connect server
+2015-02-02 23:17:00,500 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:17:01,101 - sauce_connect:0 - INFO - old keepalive timer shutting down
+2015-02-02 23:17:02,339 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 8b625ecce1ed452ea218e69891d85db8
+2015-02-02 23:17:02,338 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2015-02-02 23:17:02,352 - sauce_connect:696 - INFO - status check found tunnel in terminated
+2015-02-02 23:17:02,354 - sauce_connect:696 - INFO - Remote tunnel VM no longer running, shutting down
+2015-02-02 23:17:02,355 - sauce_connect:0 - INFO - asked to close connection to Sauce Connect server
+2015-02-02 23:17:02,358 - sauce_connect:0 - INFO - disconnected from Sauce Connect server
+2015-02-02 23:17:02,359 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-02 23:17:02,461 - sauce_connect:702 - INFO - Finished running tunnel
+2015-02-02 23:17:02,463 - sauce_connect:307 - INFO - Shutting down tunnel remote VM (please wait)
+2015-02-02 23:17:02,463 - sauce_connect:308 - DEBUG - tunnel remote VM ID: 6bcbdcf2874d4e35aaaea0f59111b441
+2015-02-02 23:17:03,256 - sauce_connect:330 - INFO - Finished shutting down tunnel remote VM
+2015-02-02 23:17:03,256 - sauce_connect:431 - INFO - \ Exiting /
+2015-02-02 23:17:03,338 - sauce_connect:0 - INFO - old keepalive timer shutting down
+2015-02-02 23:17:08,303 - sauce_connect:601 - INFO - / Starting \
+2015-02-02 23:17:08,306 - sauce_connect:602 - INFO - Please wait for "You may start your tests" to start your tests.
+2015-02-02 23:17:08,309 - sauce_connect:614 - DEBUG - System is 8.0 hours off UTC
+2015-02-02 23:17:08,311 - sauce_connect:616 - DEBUG - options: {'use_ssh_config': False, 'boost_mode': True, 'ssh': False, 'proxy_password': '', 'ports': ['64124'], 'vm_version': '', 'squid_opts': '', 'logfilesize': '31457280', 'readyfile': '/Users/kyle/Code/OpenSource/angular-post-message/node_modules/saucie/node_modules/sauce-connect-launcher/lib/readyfile', 'tunnel_ports': ['80'], 'proxy_host': '', 'host': '127.0.0.1', 'latency_log': 150, 'quiet': False, 'shared_tunnel': False, 'proxy_port': '', 'allow_unclean_exit': False, 'tunnel_identifier': 'Saucie', 'ssh_port': 443, 'logfile': 'sauce-example.log', 'debug_ssh': False, 'domains': None, 'proxy_tunnel': False, 'proxy_user': '', 'no_ssl_bump_domains': '', 'rest_url': 'https://saucelabs.com/rest/v1', 'direct_domains': '', 'fast_fail_regexps': '', 'se_port': '4445', 'user': 'kylewelsby-os'}
+2015-02-02 23:17:08,312 - sauce_connect:617 - DEBUG - metadata: {'OwnerHost': '127.0.0.1', 'Platform': 'Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64', 'PythonVersion': '2.5.1', 'Ports': ['80'], 'ScriptRelease': 50, 'OwnerPorts': ['64124'], 'Build': '50', 'ScriptName': 'sauce_connect', 'Release': '3.1-r32'}
+2015-02-02 23:17:08,312 - sauce_connect:619 - INFO - Forwarding: None:['80'] -> 127.0.0.1:['64124']
+2015-02-02 23:17:08,319 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:64124 in 3ms
+2015-02-02 23:17:09,513 - sauce_connect:219 - WARNING - NOTICE: Already running tunnels exist that would collide with this instance of Connect. Shutting them down before starting.
+Read http://saucelabs.com/docs/connect#tunnel-identifier for more details.
+2015-02-02 23:17:09,513 - sauce_connect:230 - INFO - Shutting down tunnel VM: 22284cae57484191a7bfb266e839c55a running under the same identifier
+2015-02-02 23:17:13,464 - sauce_connect:265 - INFO - {"tunnel_identifier":"Saucie","metadata":{"OwnerHost":"127.0.0.1","Platform":"Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64","PythonVersion":"2.5.1","Ports":["80"],"ScriptRelease":50,"OwnerPorts":["64124"],"Build":"50","ScriptName":"sauce_connect","Release":"3.1-r32"},"ssh_port":443,"squid_config":null,"use_caching_proxy":true,"no_ssl_bump_domains":null,"use_kgp":true,"domain_names":[],"direct_domains":null,"vm_version":"","fast_fail_regexps":null,"shared_tunnel":false}
+2015-02-02 23:17:20,792 - sauce_connect:276 - INFO - Tunnel remote VM is provisioned (0465480c415b485b90f8e188f7a3d000)
+2015-02-02 23:17:21,526 - sauce_connect:294 - INFO - Tunnel remote VM is booting ..
+2015-02-02 23:17:26,046 - sauce_connect:660 - WARNING - Tunnel remote VM was shut down
+2015-02-02 23:17:26,048 - sauce_connect:662 - INFO - Requesting new tunnel
+2015-02-02 23:17:31,946 - sauce_connect:219 - WARNING - NOTICE: Already running tunnels exist that would collide with this instance of Connect. Shutting them down before starting.
+Read http://saucelabs.com/docs/connect#tunnel-identifier for more details.
+2015-02-02 23:17:31,947 - sauce_connect:230 - INFO - Shutting down tunnel VM: d34d425748f0487f8ea555fab401d98d running under the same identifier
+2015-02-02 23:17:37,869 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:17:41,417 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:17:46,846 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:17:50,430 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:17:53,642 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:17:56,854 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:18:00,207 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:18:04,019 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:18:07,687 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:18:10,898 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:18:15,069 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:18:18,280 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:18:22,963 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:18:29,243 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:18:32,693 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:18:35,907 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:18:40,721 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:18:43,931 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:18:47,210 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:18:50,434 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:18:53,648 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:19:01,841 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:19:06,362 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:19:09,589 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:19:14,029 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:19:17,237 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:19:20,446 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:19:24,510 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:19:27,727 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:19:30,938 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:19:34,257 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:19:37,875 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:19:44,734 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:19:51,756 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:19:55,615 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:19:58,826 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:20:03,071 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:20:06,862 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:20:10,131 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:20:13,361 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:20:16,844 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:20:20,618 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:20:24,092 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:20:28,578 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:20:35,269 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:20:38,480 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:20:43,910 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:20:47,387 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:20:50,740 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:20:54,519 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:20:57,729 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:21:00,937 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:21:04,200 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:21:07,408 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:21:11,667 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:21:15,072 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:21:20,913 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:21:24,125 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:21:27,348 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:21:31,227 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:21:37,766 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:21:41,980 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:21:45,358 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:21:48,734 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:21:52,049 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:21:55,257 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:21:59,243 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:22:02,450 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:22:07,858 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:22:11,130 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:22:14,381 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:22:21,076 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:22:26,390 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:22:29,618 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:22:34,528 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:22:39,359 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:22:43,572 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:22:47,236 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:22:53,160 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:22:58,532 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:23:02,342 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:23:05,555 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:23:09,723 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:23:12,930 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:23:16,214 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:23:20,335 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:23:24,265 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:23:28,627 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:23:32,519 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:23:35,999 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:23:42,217 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:23:46,665 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:23:49,872 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:23:53,665 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:23:56,878 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:24:00,092 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:24:03,368 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:24:08,003 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:24:11,210 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:24:15,181 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:24:20,645 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:24:26,966 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:24:31,552 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:24:34,811 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:24:38,812 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:24:42,032 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:24:46,671 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:24:49,880 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:24:58,704 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:25:02,234 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:25:05,444 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:25:08,651 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:25:11,976 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:25:15,194 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:25:19,404 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:25:23,303 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:25:26,507 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:25:29,825 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:25:33,029 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:25:36,237 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:25:39,479 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:25:42,687 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:25:45,943 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:25:49,676 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:25:53,026 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:25:56,240 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:25:59,625 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:26:02,832 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:26:06,043 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:26:09,750 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:26:12,961 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:26:16,369 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:26:19,703 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:26:22,915 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:26:26,124 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:26:29,335 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:26:33,565 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:26:36,769 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:26:40,822 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:26:45,803 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:26:49,009 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:26:52,338 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:26:55,720 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:26:58,930 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:27:02,137 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:27:06,743 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:27:09,959 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:27:13,178 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:27:16,756 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:27:19,961 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:27:23,167 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:27:26,512 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:27:29,726 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:27:33,703 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:27:36,917 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:27:40,701 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:27:46,131 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:27:49,756 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:27:52,963 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:28:00,973 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:28:09,555 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:28:13,799 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:28:17,563 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:28:20,776 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:28:24,151 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:28:32,444 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:28:35,697 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:28:38,915 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:28:42,121 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:28:48,526 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:28:51,842 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:28:55,056 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:28:58,556 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:29:01,760 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:29:05,408 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:29:08,612 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:29:11,994 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:29:15,323 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:29:19,157 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:29:23,188 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:29:26,941 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:29:30,210 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:29:33,415 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:29:36,619 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:29:39,928 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:29:43,144 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:29:48,075 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:29:52,819 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:29:58,483 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:30:01,700 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:30:05,595 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:30:11,872 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:30:16,701 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:30:20,303 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:30:23,528 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:30:29,256 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:30:32,480 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:30:37,046 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:30:40,328 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:30:45,039 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:30:51,434 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:30:55,101 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:30:58,618 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:31:01,947 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:31:05,288 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:31:08,849 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:31:12,069 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:31:16,763 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:31:20,539 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:31:23,753 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:31:27,612 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:31:31,200 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:31:34,411 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:31:38,358 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:31:42,157 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:31:50,500 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:31:54,201 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:31:57,769 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:32:01,785 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:32:05,115 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:32:08,322 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:32:11,816 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:32:15,490 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:32:20,493 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:32:24,200 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:32:29,029 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:32:32,266 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:32:35,921 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:32:41,177 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:32:44,825 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:32:48,190 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:32:52,325 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:32:56,746 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:33:00,319 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:33:03,788 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:33:08,667 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:33:12,194 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:33:16,099 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:33:20,023 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:33:28,171 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:33:31,450 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:33:34,723 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:33:37,937 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:33:42,196 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:33:46,887 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:33:50,098 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:33:56,082 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:33:59,296 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:34:02,875 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:34:06,141 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:34:09,367 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:34:12,575 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:34:16,332 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:34:19,562 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:34:22,769 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:34:26,983 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:34:30,213 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:34:34,821 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:34:38,059 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:34:41,755 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:34:45,325 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:34:48,538 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:34:51,747 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:34:55,371 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:34:58,780 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:35:01,990 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:35:05,221 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:35:08,555 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:35:11,858 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:35:16,059 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:35:19,299 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:35:25,753 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:35:28,971 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:35:32,194 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:35:38,132 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:35:41,615 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:35:44,855 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:35:48,068 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:35:51,424 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:35:54,635 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:35:57,842 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:36:01,059 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:36:04,746 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:36:10,240 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:36:13,450 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:36:17,180 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:36:20,499 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:36:23,713 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:36:29,177 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:36:32,743 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:36:36,036 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:36:40,766 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:36:45,459 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:36:49,095 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:36:52,930 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:36:56,138 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:36:59,346 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:37:02,552 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:37:05,780 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:37:08,987 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:37:13,417 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:37:16,628 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:37:19,838 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:37:23,055 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:37:26,397 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:37:30,352 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:37:33,628 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:37:40,141 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:37:44,382 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:37:50,058 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:37:53,984 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:37:58,032 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:38:04,428 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:38:09,476 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:38:12,694 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:38:16,947 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:38:20,158 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:38:26,048 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:38:29,256 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:38:32,665 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:38:35,874 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:38:39,086 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:38:42,302 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:38:46,967 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:38:52,750 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:38:56,894 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:39:06,167 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:39:09,375 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:39:12,582 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:39:16,796 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:39:20,009 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:39:25,805 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:39:29,759 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:39:33,480 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:39:39,667 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:39:44,009 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:39:47,220 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:39:50,430 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:39:53,677 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:40:01,177 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:40:04,384 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:40:08,361 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:40:12,944 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:40:16,154 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:40:22,987 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:40:26,213 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:40:29,427 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:40:32,650 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:40:36,275 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:40:39,936 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:40:43,295 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:40:46,614 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:40:49,963 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:40:53,176 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:40:58,720 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:41:08,585 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:41:11,805 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:41:15,526 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:41:18,786 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:41:21,997 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:41:25,811 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:41:29,654 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:41:33,516 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:41:38,697 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:41:42,493 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:41:47,059 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:41:50,282 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:41:53,618 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:41:56,832 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:42:00,049 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:42:03,960 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:42:07,586 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:42:13,207 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:42:16,934 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:42:20,663 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:42:24,542 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:42:27,749 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:42:31,272 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:42:34,480 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:42:37,690 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:42:40,898 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:42:45,213 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:43:02,174 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:43:05,391 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:43:09,536 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:43:14,926 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:43:18,134 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:43:21,526 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:43:24,734 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:43:27,950 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:43:31,359 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:43:35,775 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:43:38,989 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:43:42,201 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:43:45,407 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:43:49,470 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:43:52,678 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:43:56,023 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:44:00,740 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:44:04,687 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:44:07,891 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:44:13,663 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:44:17,976 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:44:21,391 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:44:24,594 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:44:29,536 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:44:32,887 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:44:36,186 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:44:39,592 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:44:42,796 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:44:46,006 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:44:49,214 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:44:52,421 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:44:55,651 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:44:58,861 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:45:02,989 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:45:06,762 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:45:10,404 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:45:13,621 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:45:17,000 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:45:20,207 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:45:23,414 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:45:26,622 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:45:31,052 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:45:34,299 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:45:38,015 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:45:41,223 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:45:52,270 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:45:58,842 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:46:03,332 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:46:06,542 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:46:09,779 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:46:12,986 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:46:16,881 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:46:22,989 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:46:26,193 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:46:33,026 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:46:37,256 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:46:41,085 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:46:44,293 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:46:47,499 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:46:51,667 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:46:54,894 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:46:58,105 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:47:01,312 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:47:07,842 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:47:16,217 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:47:23,177 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:47:26,654 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:47:30,154 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:47:33,638 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:47:40,559 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:47:43,782 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:47:46,987 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:47:50,256 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:47:53,477 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:47:56,686 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:48:00,244 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:48:04,168 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:48:07,944 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:48:13,529 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:48:17,400 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:48:20,858 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:48:24,063 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:48:27,272 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:48:31,427 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:48:38,342 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:48:43,384 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:48:47,993 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:48:51,204 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:48:54,410 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:48:57,924 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:49:01,138 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:49:05,288 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:49:09,921 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:49:13,704 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:49:17,026 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:49:21,966 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:49:26,088 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:49:29,753 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:49:33,352 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:49:37,144 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:49:40,377 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:49:43,605 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:49:46,819 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:49:51,114 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:49:57,151 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:50:00,901 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:50:04,335 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:50:07,545 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:50:11,230 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:50:16,704 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:50:19,908 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:50:24,000 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:50:28,308 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:50:31,517 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:50:34,823 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:50:39,529 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:50:42,885 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:50:47,167 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:50:50,371 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:50:53,576 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:50:57,874 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:51:01,713 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:51:04,967 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:51:08,171 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:51:11,818 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:51:16,533 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:51:20,217 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:51:23,903 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:51:27,384 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:51:31,193 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:51:34,395 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:51:37,971 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:51:41,196 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:51:46,750 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:51:52,026 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:51:55,230 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:51:58,438 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:52:02,145 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:52:05,352 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:52:09,204 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:52:13,408 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:52:17,089 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:52:20,450 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:52:25,654 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:52:31,996 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:52:36,928 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:52:40,134 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:52:43,559 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:52:47,026 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:52:51,040 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:52:55,144 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:52:59,101 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:53:03,351 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:53:06,717 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:53:11,417 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:53:14,619 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:53:22,061 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:53:26,905 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:53:32,230 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:53:35,434 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:53:38,635 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:53:43,976 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:53:47,907 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:53:51,128 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:53:54,476 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:53:57,686 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:54:01,536 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:54:04,742 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:54:10,117 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:54:13,588 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:54:18,196 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:54:22,147 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:54:25,744 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:54:31,453 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:54:35,361 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:54:38,671 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:54:42,259 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:54:46,035 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:54:49,240 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:54:53,033 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:54:56,936 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:55:01,426 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:55:04,631 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:55:07,834 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:55:11,308 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:55:15,211 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:55:19,036 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:55:23,046 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:55:26,256 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:55:29,460 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:55:32,664 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:55:35,917 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:55:39,220 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:55:42,424 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:55:45,674 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:55:50,028 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:55:54,138 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:55:57,342 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:56:00,543 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:56:03,753 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:56:07,418 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:56:10,622 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:56:13,920 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:56:17,276 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:56:22,512 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:56:26,377 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:56:29,842 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:56:34,098 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:56:37,301 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:56:41,418 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:56:45,148 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:56:49,437 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:56:53,010 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:56:57,473 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:57:00,898 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:57:06,088 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:57:09,295 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:57:13,342 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:57:16,543 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:57:20,999 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:57:24,934 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:57:28,253 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:57:31,453 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:57:34,664 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:57:39,075 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:57:42,908 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:57:46,417 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:57:50,779 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:57:53,993 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:57:58,436 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:58:01,644 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:58:06,819 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:58:11,092 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:58:14,296 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:58:18,851 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:58:22,377 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:58:27,540 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:58:32,966 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:58:36,951 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:58:40,687 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:58:44,687 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:58:48,262 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:58:51,592 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:58:54,796 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:59:03,443 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:59:07,165 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:59:10,374 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:59:13,987 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:59:17,194 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:59:20,651 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:59:24,992 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:59:28,674 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:59:32,421 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:59:35,624 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:59:38,924 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:59:42,130 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:59:45,342 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:59:48,555 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:59:53,079 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-02 23:59:57,069 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-03 00:00:00,415 - sauce_connect:241 - DEBUG - Waiting for old tunnel remote VM to start halting
+2015-02-03 00:00:01,022 - sauce_connect:0 - INFO - received SIGINT
+2015-02-03 00:00:07,174 - sauce_connect:601 - INFO - / Starting \
+2015-02-03 00:00:07,176 - sauce_connect:602 - INFO - Please wait for "You may start your tests" to start your tests.
+2015-02-03 00:00:07,180 - sauce_connect:614 - DEBUG - System is 8.0 hours off UTC
+2015-02-03 00:00:07,180 - sauce_connect:616 - DEBUG - options: {'use_ssh_config': False, 'boost_mode': True, 'ssh': False, 'proxy_password': '', 'ports': ['55203'], 'vm_version': '', 'squid_opts': '', 'logfilesize': '31457280', 'readyfile': '/Users/kyle/Code/OpenSource/angular-post-message/node_modules/saucie/node_modules/sauce-connect-launcher/lib/readyfile', 'tunnel_ports': ['80'], 'proxy_host': '', 'host': '127.0.0.1', 'latency_log': 150, 'quiet': False, 'shared_tunnel': False, 'proxy_port': '', 'allow_unclean_exit': False, 'tunnel_identifier': 'Saucie', 'ssh_port': 443, 'logfile': 'sauce-example.log', 'debug_ssh': False, 'domains': None, 'proxy_tunnel': False, 'proxy_user': '', 'no_ssl_bump_domains': '', 'rest_url': 'https://saucelabs.com/rest/v1', 'direct_domains': '', 'fast_fail_regexps': '', 'se_port': '4445', 'user': 'kylewelsby-os'}
+2015-02-03 00:00:07,180 - sauce_connect:617 - DEBUG - metadata: {'OwnerHost': '127.0.0.1', 'Platform': 'Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64', 'PythonVersion': '2.5.1', 'Ports': ['80'], 'ScriptRelease': 50, 'OwnerPorts': ['55203'], 'Build': '50', 'ScriptName': 'sauce_connect', 'Release': '3.1-r32'}
+2015-02-03 00:00:07,181 - sauce_connect:619 - INFO - Forwarding: None:['80'] -> 127.0.0.1:['55203']
+2015-02-03 00:00:07,187 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:55203 in 2ms
+2015-02-03 00:00:09,966 - sauce_connect:219 - WARNING - NOTICE: Already running tunnels exist that would collide with this instance of Connect. Shutting them down before starting.
+Read http://saucelabs.com/docs/connect#tunnel-identifier for more details.
+2015-02-03 00:00:09,967 - sauce_connect:230 - INFO - Shutting down tunnel VM: d34d425748f0487f8ea555fab401d98d running under the same identifier
+2015-02-03 00:00:14,223 - sauce_connect:265 - INFO - {"tunnel_identifier":"Saucie","metadata":{"OwnerHost":"127.0.0.1","Platform":"Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64","PythonVersion":"2.5.1","Ports":["80"],"ScriptRelease":50,"OwnerPorts":["55203"],"Build":"50","ScriptName":"sauce_connect","Release":"3.1-r32"},"ssh_port":443,"squid_config":null,"use_caching_proxy":true,"no_ssl_bump_domains":null,"use_kgp":true,"domain_names":[],"direct_domains":null,"vm_version":"","fast_fail_regexps":null,"shared_tunnel":false}
+2015-02-03 00:00:20,016 - sauce_connect:276 - INFO - Tunnel remote VM is provisioned (14a30a71766443f6a4eeb5cf2cfacbea)
+2015-02-03 00:00:22,321 - sauce_connect:298 - INFO - Tunnel remote VM is running at maki76077.miso.saucelabs.com
+2015-02-03 00:00:22,331 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:55203 in 0ms
+2015-02-03 00:00:22,332 - sauce_connect:696 - INFO - Starting connection to tunnel host...
+2015-02-03 00:00:22,334 - sauce_connect:696 - INFO - Connecting to tunnel host maki76077.miso.saucelabs.com as kylewelsby-os
+2015-02-03 00:00:22,404 - sauce_connect:696 - INFO - Forwarding Selenium with ephemeral port 55222
+2015-02-03 00:00:22,407 - sauce_connect:696 - INFO - Selenium HTTP proxy listening on port 4445
+2015-02-03 00:00:23,259 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2015-02-03 00:00:23,263 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 805c49fca9c94c2cacf9a175b531763e
+2015-02-03 00:00:23,265 - sauce_connect:696 - INFO - Connected! You may start your tests.
+2015-02-03 00:00:24,483 - sauce_connect:0 - INFO - disconnected from Sauce Connect server
+2015-02-03 00:00:24,484 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:00:25,357 - sauce_connect:0 - INFO - old keepalive timer shutting down
+2015-02-03 00:00:35,503 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:00:35,506 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:00:40,062 - sauce_connect:696 - INFO - status check found tunnel in terminated
+2015-02-03 00:00:40,062 - sauce_connect:696 - INFO - Remote tunnel VM no longer running, shutting down
+2015-02-03 00:00:40,065 - sauce_connect:0 - INFO - asked to close connection to Sauce Connect server
+2015-02-03 00:00:40,174 - sauce_connect:702 - INFO - Finished running tunnel
+2015-02-03 00:00:40,174 - sauce_connect:307 - INFO - Shutting down tunnel remote VM (please wait)
+2015-02-03 00:00:40,174 - sauce_connect:308 - DEBUG - tunnel remote VM ID: 14a30a71766443f6a4eeb5cf2cfacbea
+2015-02-03 00:00:43,661 - sauce_connect:330 - INFO - Finished shutting down tunnel remote VM
+2015-02-03 00:00:43,661 - sauce_connect:431 - INFO - \ Exiting /
+2015-02-03 00:00:48,608 - sauce_connect:601 - INFO - / Starting \
+2015-02-03 00:00:48,609 - sauce_connect:602 - INFO - Please wait for "You may start your tests" to start your tests.
+2015-02-03 00:00:48,614 - sauce_connect:614 - DEBUG - System is 8.0 hours off UTC
+2015-02-03 00:00:48,615 - sauce_connect:616 - DEBUG - options: {'use_ssh_config': False, 'boost_mode': True, 'ssh': False, 'proxy_password': '', 'ports': ['55265'], 'vm_version': '', 'squid_opts': '', 'logfilesize': '31457280', 'readyfile': '/Users/kyle/Code/OpenSource/angular-post-message/node_modules/saucie/node_modules/sauce-connect-launcher/lib/readyfile', 'tunnel_ports': ['80'], 'proxy_host': '', 'host': '127.0.0.1', 'latency_log': 150, 'quiet': False, 'shared_tunnel': False, 'proxy_port': '', 'allow_unclean_exit': False, 'tunnel_identifier': 'Saucie', 'ssh_port': 443, 'logfile': 'sauce-example.log', 'debug_ssh': False, 'domains': None, 'proxy_tunnel': False, 'proxy_user': '', 'no_ssl_bump_domains': '', 'rest_url': 'https://saucelabs.com/rest/v1', 'direct_domains': '', 'fast_fail_regexps': '', 'se_port': '4445', 'user': 'kylewelsby-os'}
+2015-02-03 00:00:48,615 - sauce_connect:617 - DEBUG - metadata: {'OwnerHost': '127.0.0.1', 'Platform': 'Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64', 'PythonVersion': '2.5.1', 'Ports': ['80'], 'ScriptRelease': 50, 'OwnerPorts': ['55265'], 'Build': '50', 'ScriptName': 'sauce_connect', 'Release': '3.1-r32'}
+2015-02-03 00:00:48,615 - sauce_connect:619 - INFO - Forwarding: None:['80'] -> 127.0.0.1:['55265']
+2015-02-03 00:00:48,621 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:55265 in 3ms
+2015-02-03 00:00:48,842 - sauce_connect:219 - WARNING - NOTICE: Already running tunnels exist that would collide with this instance of Connect. Shutting them down before starting.
+Read http://saucelabs.com/docs/connect#tunnel-identifier for more details.
+2015-02-03 00:00:48,844 - sauce_connect:230 - INFO - Shutting down tunnel VM: 7ad27818b06741bb9cc6c92abe182d74 running under the same identifier
+2015-02-03 00:00:53,852 - sauce_connect:265 - INFO - {"tunnel_identifier":"Saucie","metadata":{"OwnerHost":"127.0.0.1","Platform":"Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64","PythonVersion":"2.5.1","Ports":["80"],"ScriptRelease":50,"OwnerPorts":["55265"],"Build":"50","ScriptName":"sauce_connect","Release":"3.1-r32"},"ssh_port":443,"squid_config":null,"use_caching_proxy":true,"no_ssl_bump_domains":null,"use_kgp":true,"domain_names":[],"direct_domains":null,"vm_version":"","fast_fail_regexps":null,"shared_tunnel":false}
+2015-02-03 00:01:00,072 - sauce_connect:276 - INFO - Tunnel remote VM is provisioned (1611d76f7af84e6d8c65dec668ce2c97)
+2015-02-03 00:01:01,239 - sauce_connect:294 - INFO - Tunnel remote VM is booting ..
+2015-02-03 00:01:04,446 - sauce_connect:298 - INFO - Tunnel remote VM is running at maki76243.miso.saucelabs.com
+2015-02-03 00:01:04,456 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:55265 in 0ms
+2015-02-03 00:01:04,457 - sauce_connect:696 - INFO - Starting connection to tunnel host...
+2015-02-03 00:01:04,459 - sauce_connect:696 - INFO - Connecting to tunnel host maki76243.miso.saucelabs.com as kylewelsby-os
+2015-02-03 00:01:04,526 - sauce_connect:696 - INFO - Forwarding Selenium with ephemeral port 55287
+2015-02-03 00:01:04,529 - sauce_connect:696 - INFO - Selenium HTTP proxy listening on port 4445
+2015-02-03 00:01:05,634 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2015-02-03 00:01:05,640 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 425b3ace7eea46fc8f0ee73cd2fd4751
+2015-02-03 00:01:05,641 - sauce_connect:696 - INFO - Connected! You may start your tests.
+2015-02-03 00:01:09,986 - sauce_connect:0 - INFO - disconnected from Sauce Connect server
+2015-02-03 00:01:09,987 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:01:10,933 - sauce_connect:0 - INFO - old keepalive timer shutting down
+2015-02-03 00:01:21,009 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:01:21,012 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:01:22,209 - sauce_connect:696 - INFO - status check found tunnel in terminated
+2015-02-03 00:01:22,210 - sauce_connect:696 - INFO - Remote tunnel VM no longer running, shutting down
+2015-02-03 00:01:22,211 - sauce_connect:0 - INFO - asked to close connection to Sauce Connect server
+2015-02-03 00:01:22,318 - sauce_connect:702 - INFO - Finished running tunnel
+2015-02-03 00:01:22,319 - sauce_connect:307 - INFO - Shutting down tunnel remote VM (please wait)
+2015-02-03 00:01:22,319 - sauce_connect:308 - DEBUG - tunnel remote VM ID: 1611d76f7af84e6d8c65dec668ce2c97
+2015-02-03 00:01:24,048 - sauce_connect:330 - INFO - Finished shutting down tunnel remote VM
+2015-02-03 00:01:24,049 - sauce_connect:431 - INFO - \ Exiting /
+2015-02-03 00:01:28,924 - sauce_connect:601 - INFO - / Starting \
+2015-02-03 00:01:28,927 - sauce_connect:602 - INFO - Please wait for "You may start your tests" to start your tests.
+2015-02-03 00:01:28,933 - sauce_connect:614 - DEBUG - System is 8.0 hours off UTC
+2015-02-03 00:01:28,934 - sauce_connect:616 - DEBUG - options: {'use_ssh_config': False, 'boost_mode': True, 'ssh': False, 'proxy_password': '', 'ports': ['55321'], 'vm_version': '', 'squid_opts': '', 'logfilesize': '31457280', 'readyfile': '/Users/kyle/Code/OpenSource/angular-post-message/node_modules/saucie/node_modules/sauce-connect-launcher/lib/readyfile', 'tunnel_ports': ['80'], 'proxy_host': '', 'host': '127.0.0.1', 'latency_log': 150, 'quiet': False, 'shared_tunnel': False, 'proxy_port': '', 'allow_unclean_exit': False, 'tunnel_identifier': 'Saucie', 'ssh_port': 443, 'logfile': 'sauce-example.log', 'debug_ssh': False, 'domains': None, 'proxy_tunnel': False, 'proxy_user': '', 'no_ssl_bump_domains': '', 'rest_url': 'https://saucelabs.com/rest/v1', 'direct_domains': '', 'fast_fail_regexps': '', 'se_port': '4445', 'user': 'kylewelsby-os'}
+2015-02-03 00:01:28,934 - sauce_connect:617 - DEBUG - metadata: {'OwnerHost': '127.0.0.1', 'Platform': 'Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64', 'PythonVersion': '2.5.1', 'Ports': ['80'], 'ScriptRelease': 50, 'OwnerPorts': ['55321'], 'Build': '50', 'ScriptName': 'sauce_connect', 'Release': '3.1-r32'}
+2015-02-03 00:01:28,934 - sauce_connect:619 - INFO - Forwarding: None:['80'] -> 127.0.0.1:['55321']
+2015-02-03 00:01:28,944 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:55321 in 5ms
+2015-02-03 00:01:29,197 - sauce_connect:219 - WARNING - NOTICE: Already running tunnels exist that would collide with this instance of Connect. Shutting them down before starting.
+Read http://saucelabs.com/docs/connect#tunnel-identifier for more details.
+2015-02-03 00:01:29,198 - sauce_connect:230 - INFO - Shutting down tunnel VM: 15e8643b5e64469cb9b72fd669546f6c running under the same identifier
+2015-02-03 00:01:33,641 - sauce_connect:265 - INFO - {"tunnel_identifier":"Saucie","metadata":{"OwnerHost":"127.0.0.1","Platform":"Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64","PythonVersion":"2.5.1","Ports":["80"],"ScriptRelease":50,"OwnerPorts":["55321"],"Build":"50","ScriptName":"sauce_connect","Release":"3.1-r32"},"ssh_port":443,"squid_config":null,"use_caching_proxy":true,"no_ssl_bump_domains":null,"use_kgp":true,"domain_names":[],"direct_domains":null,"vm_version":"","fast_fail_regexps":null,"shared_tunnel":false}
+2015-02-03 00:01:33,880 - sauce_connect:163 - ERROR - java.io.IOException: Server returned HTTP response code: 409 for URL: https://saucelabs.com/rest/v1/kylewelsby-os/tunnels
+2015-02-03 00:01:33,884 - sauce_connect:181 - WARNING - Problem connecting to Sauce Labs REST API (HTTP server responded with 'java.io.IOException: Server returned HTTP response code: 409 for URL: https://saucelabs.com/rest/v1/kylewelsby-os/tunnels' (expected 'OK'))
+2015-02-03 00:01:33,884 - sauce_connect:189 - DEBUG - Retrying in 5s
+2015-02-03 00:01:41,740 - sauce_connect:163 - ERROR - java.io.IOException: Server returned HTTP response code: 409 for URL: https://saucelabs.com/rest/v1/kylewelsby-os/tunnels
+2015-02-03 00:01:41,743 - sauce_connect:181 - WARNING - Problem connecting to Sauce Labs REST API (HTTP server responded with 'java.io.IOException: Server returned HTTP response code: 409 for URL: https://saucelabs.com/rest/v1/kylewelsby-os/tunnels' (expected 'OK'))
+2015-02-03 00:01:41,743 - sauce_connect:189 - DEBUG - Retrying in 5s
+2015-02-03 00:01:47,756 - sauce_connect:163 - ERROR - java.io.IOException: Server returned HTTP response code: 409 for URL: https://saucelabs.com/rest/v1/kylewelsby-os/tunnels
+2015-02-03 00:01:47,759 - sauce_connect:181 - WARNING - Problem connecting to Sauce Labs REST API (HTTP server responded with 'java.io.IOException: Server returned HTTP response code: 409 for URL: https://saucelabs.com/rest/v1/kylewelsby-os/tunnels' (expected 'OK'))
+2015-02-03 00:01:47,760 - sauce_connect:189 - DEBUG - Retrying in 5s
+2015-02-03 00:01:58,999 - sauce_connect:163 - ERROR - java.io.IOException: Server returned HTTP response code: 409 for URL: https://saucelabs.com/rest/v1/kylewelsby-os/tunnels
+2015-02-03 00:01:59,000 - sauce_connect:181 - WARNING - Problem connecting to Sauce Labs REST API (HTTP server responded with 'java.io.IOException: Server returned HTTP response code: 409 for URL: https://saucelabs.com/rest/v1/kylewelsby-os/tunnels' (expected 'OK'))
+2015-02-03 00:01:59,002 - sauce_connect:189 - DEBUG - Retrying in 5s
+2015-02-03 00:02:08,266 - sauce_connect:163 - ERROR - java.io.IOException: Server returned HTTP response code: 409 for URL: https://saucelabs.com/rest/v1/kylewelsby-os/tunnels
+2015-02-03 00:02:08,269 - sauce_connect:181 - WARNING - Problem connecting to Sauce Labs REST API (HTTP server responded with 'java.io.IOException: Server returned HTTP response code: 409 for URL: https://saucelabs.com/rest/v1/kylewelsby-os/tunnels' (expected 'OK'))
+2015-02-03 00:02:08,269 - sauce_connect:189 - DEBUG - Retrying in 5s
+2015-02-03 00:02:14,270 - sauce_connect:163 - ERROR - java.io.IOException: Server returned HTTP response code: 409 for URL: https://saucelabs.com/rest/v1/kylewelsby-os/tunnels
+2015-02-03 00:02:14,273 - sauce_connect:181 - WARNING - Problem connecting to Sauce Labs REST API (HTTP server responded with 'java.io.IOException: Server returned HTTP response code: 409 for URL: https://saucelabs.com/rest/v1/kylewelsby-os/tunnels' (expected 'OK'))
+2015-02-03 00:02:14,275 - sauce_connect:649 - ERROR - Could not reach Sauce Labs REST API after 6 tries. Is your network down or firewalled?
+2015-02-03 00:02:14,276 - sauce_connect:431 - INFO - \ Exiting /
+2015-02-03 00:02:18,951 - sauce_connect:601 - INFO - / Starting \
+2015-02-03 00:02:18,954 - sauce_connect:602 - INFO - Please wait for "You may start your tests" to start your tests.
+2015-02-03 00:02:18,959 - sauce_connect:614 - DEBUG - System is 8.0 hours off UTC
+2015-02-03 00:02:18,960 - sauce_connect:616 - DEBUG - options: {'use_ssh_config': False, 'boost_mode': True, 'ssh': False, 'proxy_password': '', 'ports': ['55383'], 'vm_version': '', 'squid_opts': '', 'logfilesize': '31457280', 'readyfile': '/Users/kyle/Code/OpenSource/angular-post-message/node_modules/saucie/node_modules/sauce-connect-launcher/lib/readyfile', 'tunnel_ports': ['80'], 'proxy_host': '', 'host': '127.0.0.1', 'latency_log': 150, 'quiet': False, 'shared_tunnel': False, 'proxy_port': '', 'allow_unclean_exit': False, 'tunnel_identifier': 'Saucie', 'ssh_port': 443, 'logfile': 'sauce-example.log', 'debug_ssh': False, 'domains': None, 'proxy_tunnel': False, 'proxy_user': '', 'no_ssl_bump_domains': '', 'rest_url': 'https://saucelabs.com/rest/v1', 'direct_domains': '', 'fast_fail_regexps': '', 'se_port': '4445', 'user': 'kylewelsby-os'}
+2015-02-03 00:02:18,960 - sauce_connect:617 - DEBUG - metadata: {'OwnerHost': '127.0.0.1', 'Platform': 'Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64', 'PythonVersion': '2.5.1', 'Ports': ['80'], 'ScriptRelease': 50, 'OwnerPorts': ['55383'], 'Build': '50', 'ScriptName': 'sauce_connect', 'Release': '3.1-r32'}
+2015-02-03 00:02:18,961 - sauce_connect:619 - INFO - Forwarding: None:['80'] -> 127.0.0.1:['55383']
+2015-02-03 00:02:18,970 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:55383 in 3ms
+2015-02-03 00:02:20,512 - sauce_connect:219 - WARNING - NOTICE: Already running tunnels exist that would collide with this instance of Connect. Shutting them down before starting.
+Read http://saucelabs.com/docs/connect#tunnel-identifier for more details.
+2015-02-03 00:02:20,513 - sauce_connect:230 - INFO - Shutting down tunnel VM: 2b8e9e3dff2e4562b784be96f7686270 running under the same identifier
+2015-02-03 00:02:26,124 - sauce_connect:265 - INFO - {"tunnel_identifier":"Saucie","metadata":{"OwnerHost":"127.0.0.1","Platform":"Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64","PythonVersion":"2.5.1","Ports":["80"],"ScriptRelease":50,"OwnerPorts":["55383"],"Build":"50","ScriptName":"sauce_connect","Release":"3.1-r32"},"ssh_port":443,"squid_config":null,"use_caching_proxy":true,"no_ssl_bump_domains":null,"use_kgp":true,"domain_names":[],"direct_domains":null,"vm_version":"","fast_fail_regexps":null,"shared_tunnel":false}
+2015-02-03 00:02:29,996 - sauce_connect:276 - INFO - Tunnel remote VM is provisioned (270605903ed94a4e82febea6edf5831b)
+2015-02-03 00:02:30,221 - sauce_connect:294 - INFO - Tunnel remote VM is booting ..
+2015-02-03 00:02:40,046 - sauce_connect:298 - INFO - Tunnel remote VM is running at maki78100.miso.saucelabs.com
+2015-02-03 00:02:40,058 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:55383 in 1ms
+2015-02-03 00:02:40,059 - sauce_connect:696 - INFO - Starting connection to tunnel host...
+2015-02-03 00:02:40,061 - sauce_connect:696 - INFO - Connecting to tunnel host maki78100.miso.saucelabs.com as kylewelsby-os
+2015-02-03 00:02:40,134 - sauce_connect:696 - INFO - Forwarding Selenium with ephemeral port 55423
+2015-02-03 00:02:40,138 - sauce_connect:696 - INFO - Selenium HTTP proxy listening on port 4445
+2015-02-03 00:02:41,079 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2015-02-03 00:02:41,085 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: b5101380fd7f4f06bfe370a86ad29561
+2015-02-03 00:02:41,085 - sauce_connect:696 - INFO - Connected! You may start your tests.
+2015-02-03 00:02:46,730 - sauce_connect:0 - INFO - disconnected from Sauce Connect server
+2015-02-03 00:02:46,730 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:02:46,732 - sauce_connect:0 - INFO - IOException: java.io.IOException: Connection reset by peer
+2015-02-03 00:02:47,479 - sauce_connect:0 - INFO - old keepalive timer shutting down
+2015-02-03 00:02:57,756 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:02:57,757 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:02:59,421 - sauce_connect:696 - INFO - status check found tunnel in terminated
+2015-02-03 00:02:59,421 - sauce_connect:696 - INFO - Remote tunnel VM no longer running, shutting down
+2015-02-03 00:02:59,424 - sauce_connect:0 - INFO - asked to close connection to Sauce Connect server
+2015-02-03 00:02:59,532 - sauce_connect:702 - INFO - Finished running tunnel
+2015-02-03 00:02:59,532 - sauce_connect:307 - INFO - Shutting down tunnel remote VM (please wait)
+2015-02-03 00:02:59,532 - sauce_connect:308 - DEBUG - tunnel remote VM ID: 270605903ed94a4e82febea6edf5831b
+2015-02-03 00:03:00,055 - sauce_connect:330 - INFO - Finished shutting down tunnel remote VM
+2015-02-03 00:03:00,056 - sauce_connect:431 - INFO - \ Exiting /
+2015-02-03 00:03:45,802 - sauce_connect:601 - INFO - / Starting \
+2015-02-03 00:03:45,805 - sauce_connect:602 - INFO - Please wait for "You may start your tests" to start your tests.
+2015-02-03 00:03:45,809 - sauce_connect:614 - DEBUG - System is 8.0 hours off UTC
+2015-02-03 00:03:45,809 - sauce_connect:616 - DEBUG - options: {'use_ssh_config': False, 'boost_mode': True, 'ssh': False, 'proxy_password': '', 'ports': ['55511'], 'vm_version': '', 'squid_opts': '', 'logfilesize': '31457280', 'readyfile': '/Users/kyle/Code/OpenSource/angular-post-message/node_modules/saucie/node_modules/sauce-connect-launcher/lib/readyfile', 'tunnel_ports': ['80'], 'proxy_host': '', 'host': '127.0.0.1', 'latency_log': 150, 'quiet': False, 'shared_tunnel': False, 'proxy_port': '', 'allow_unclean_exit': False, 'tunnel_identifier': 'Saucie', 'ssh_port': 443, 'logfile': 'sauce-example.log', 'debug_ssh': False, 'domains': None, 'proxy_tunnel': False, 'proxy_user': '', 'no_ssl_bump_domains': '', 'rest_url': 'https://saucelabs.com/rest/v1', 'direct_domains': '', 'fast_fail_regexps': '', 'se_port': '4445', 'user': 'kylewelsby-os'}
+2015-02-03 00:03:45,811 - sauce_connect:617 - DEBUG - metadata: {'OwnerHost': '127.0.0.1', 'Platform': 'Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64', 'PythonVersion': '2.5.1', 'Ports': ['80'], 'ScriptRelease': 50, 'OwnerPorts': ['55511'], 'Build': '50', 'ScriptName': 'sauce_connect', 'Release': '3.1-r32'}
+2015-02-03 00:03:45,811 - sauce_connect:619 - INFO - Forwarding: None:['80'] -> 127.0.0.1:['55511']
+2015-02-03 00:03:45,816 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:55511 in 3ms
+2015-02-03 00:03:47,161 - sauce_connect:219 - WARNING - NOTICE: Already running tunnels exist that would collide with this instance of Connect. Shutting them down before starting.
+Read http://saucelabs.com/docs/connect#tunnel-identifier for more details.
+2015-02-03 00:03:47,161 - sauce_connect:230 - INFO - Shutting down tunnel VM: 359c1840492a46f98c716db154d72eaa running under the same identifier
+2015-02-03 00:03:52,346 - sauce_connect:265 - INFO - {"tunnel_identifier":"Saucie","metadata":{"OwnerHost":"127.0.0.1","Platform":"Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64","PythonVersion":"2.5.1","Ports":["80"],"ScriptRelease":50,"OwnerPorts":["55511"],"Build":"50","ScriptName":"sauce_connect","Release":"3.1-r32"},"ssh_port":443,"squid_config":null,"use_caching_proxy":true,"no_ssl_bump_domains":null,"use_kgp":true,"domain_names":[],"direct_domains":null,"vm_version":"","fast_fail_regexps":null,"shared_tunnel":false}
+2015-02-03 00:03:56,710 - sauce_connect:276 - INFO - Tunnel remote VM is provisioned (22feaeba6cd544149695ed9ed33e170d)
+2015-02-03 00:03:57,167 - sauce_connect:294 - INFO - Tunnel remote VM is booting ..
+2015-02-03 00:04:00,454 - sauce_connect:298 - INFO - Tunnel remote VM is running at maki76059.miso.saucelabs.com
+2015-02-03 00:04:00,467 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:55511 in 0ms
+2015-02-03 00:04:00,469 - sauce_connect:696 - INFO - Starting connection to tunnel host...
+2015-02-03 00:04:00,470 - sauce_connect:696 - INFO - Connecting to tunnel host maki76059.miso.saucelabs.com as kylewelsby-os
+2015-02-03 00:04:00,539 - sauce_connect:696 - INFO - Forwarding Selenium with ephemeral port 55549
+2015-02-03 00:04:00,542 - sauce_connect:696 - INFO - Selenium HTTP proxy listening on port 4445
+2015-02-03 00:04:01,381 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2015-02-03 00:04:01,385 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: f6839faa1ac74e3c92d1a83c78ed5836
+2015-02-03 00:04:01,388 - sauce_connect:696 - INFO - Connected! You may start your tests.
+2015-02-03 00:04:02,003 - sauce_connect:0 - INFO - disconnected from Sauce Connect server
+2015-02-03 00:04:02,003 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:04:02,006 - sauce_connect:0 - INFO - IOException: java.io.IOException: Connection reset by peer
+2015-02-03 00:04:02,381 - sauce_connect:0 - INFO - old keepalive timer shutting down
+2015-02-03 00:04:13,025 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:04:13,028 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:04:24,125 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:04:24,127 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:04:35,224 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:04:35,226 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:04:46,326 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:04:46,328 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:04:57,424 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:04:57,426 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:05:08,523 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:05:08,526 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:05:19,631 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:05:19,634 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:05:30,727 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:05:30,729 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:05:41,823 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:05:41,825 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:05:52,923 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:05:52,924 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:06:04,023 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:06:04,023 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:06:15,125 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:06:15,127 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:06:26,219 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:06:26,220 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:06:37,322 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:06:37,323 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:06:48,424 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:06:48,426 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:06:59,519 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:06:59,520 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:07:10,621 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:07:10,622 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:07:21,723 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:07:21,724 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:07:32,825 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:07:32,826 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:07:43,924 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:07:43,926 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:07:55,026 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:07:55,028 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:08:06,124 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:08:06,125 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:08:17,226 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:08:17,226 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:08:28,326 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:08:28,328 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:08:39,427 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:08:39,428 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:08:50,526 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:08:50,526 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:09:01,625 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:09:01,625 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:09:12,724 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:09:12,726 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:09:23,828 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:09:23,829 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:09:34,924 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:09:34,927 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:09:46,025 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:09:46,026 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:09:57,121 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:09:57,121 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:10:08,224 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:10:08,226 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:10:19,325 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:10:19,326 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:10:30,421 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:10:30,423 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:10:41,525 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:10:41,526 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:10:52,628 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:10:52,630 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:11:03,724 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:11:03,726 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:11:14,822 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:11:14,822 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:11:25,924 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:11:25,926 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:11:37,026 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:11:37,028 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:11:48,125 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:11:48,127 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:11:59,368 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:11:59,369 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:12:10,424 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:12:10,424 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:12:21,526 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:12:21,526 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:12:32,624 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:12:32,625 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:12:43,726 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:12:43,726 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:12:54,828 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:12:54,831 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:13:05,927 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:13:05,927 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:13:17,022 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:13:17,023 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:13:28,124 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:13:28,125 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:13:39,226 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:13:39,226 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:13:50,326 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:13:50,328 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:14:01,421 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:14:01,421 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:14:12,523 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:14:12,523 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:14:23,625 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:14:23,625 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:14:34,723 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:14:34,723 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:14:45,826 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:14:45,828 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:14:56,927 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:14:56,927 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:15:08,025 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:15:08,026 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:15:19,125 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:15:19,125 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:15:30,224 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:15:30,226 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:15:41,325 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:15:41,326 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:15:52,423 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:15:52,424 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:16:03,526 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:16:03,528 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:16:14,624 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:16:14,625 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:16:25,727 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:16:25,729 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:16:36,825 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:16:36,825 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:16:47,924 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:16:47,924 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:16:59,020 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:16:59,022 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:17:10,124 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:17:10,125 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:17:21,220 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:17:21,221 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:17:32,325 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:17:32,325 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:17:43,421 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:17:43,423 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:17:54,525 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:17:54,526 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:18:05,621 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:18:05,621 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:18:16,726 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:18:16,726 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:18:27,822 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:18:27,823 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:18:38,921 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:18:38,923 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:18:50,019 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:18:50,019 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:19:01,121 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:19:01,122 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:19:12,224 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2015-02-03 00:19:12,226 - sauce_connect:0 - INFO - Connection failed
+2015-02-03 00:19:18,279 - sauce_connect:0 - INFO - received SIGINT
+2015-02-03 00:19:24,325 - sauce_connect:601 - INFO - / Starting \
+2015-02-03 00:19:24,328 - sauce_connect:602 - INFO - Please wait for "You may start your tests" to start your tests.
+2015-02-03 00:19:24,334 - sauce_connect:614 - DEBUG - System is 8.0 hours off UTC
+2015-02-03 00:19:24,335 - sauce_connect:616 - DEBUG - options: {'use_ssh_config': False, 'boost_mode': True, 'ssh': False, 'proxy_password': '', 'ports': ['56829'], 'vm_version': '', 'squid_opts': '', 'logfilesize': '31457280', 'readyfile': '/Users/kyle/Code/OpenSource/angular-post-message/node_modules/saucie/node_modules/sauce-connect-launcher/lib/readyfile', 'tunnel_ports': ['80'], 'proxy_host': '', 'host': '127.0.0.1', 'latency_log': 150, 'quiet': False, 'shared_tunnel': False, 'proxy_port': '', 'allow_unclean_exit': False, 'tunnel_identifier': 'Saucie', 'ssh_port': 443, 'logfile': 'sauce-example.log', 'debug_ssh': False, 'domains': None, 'proxy_tunnel': False, 'proxy_user': '', 'no_ssl_bump_domains': '', 'rest_url': 'https://saucelabs.com/rest/v1', 'direct_domains': '', 'fast_fail_regexps': '', 'se_port': '4445', 'user': 'kylewelsby-os'}
+2015-02-03 00:19:24,335 - sauce_connect:617 - DEBUG - metadata: {'OwnerHost': '127.0.0.1', 'Platform': 'Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64', 'PythonVersion': '2.5.1', 'Ports': ['80'], 'ScriptRelease': 50, 'OwnerPorts': ['56829'], 'Build': '50', 'ScriptName': 'sauce_connect', 'Release': '3.1-r32'}
+2015-02-03 00:19:24,336 - sauce_connect:619 - INFO - Forwarding: None:['80'] -> 127.0.0.1:['56829']
+2015-02-03 00:19:24,345 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:56829 in 4ms
+2015-02-03 00:19:24,588 - sauce_connect:219 - WARNING - NOTICE: Already running tunnels exist that would collide with this instance of Connect. Shutting them down before starting.
+Read http://saucelabs.com/docs/connect#tunnel-identifier for more details.
+2015-02-03 00:19:24,589 - sauce_connect:230 - INFO - Shutting down tunnel VM: f45899e49bc945f1b598c0957aa4404c running under the same identifier
+2015-02-03 00:19:28,286 - sauce_connect:265 - INFO - {"tunnel_identifier":"Saucie","metadata":{"OwnerHost":"127.0.0.1","Platform":"Java-1.8.0_05-Java_HotSpot-TM-_64-Bit_Server_VM,_25.5-b02,_Oracle_Corporation-on-Mac_OS_X-10.9.5-x86_64","PythonVersion":"2.5.1","Ports":["80"],"ScriptRelease":50,"OwnerPorts":["56829"],"Build":"50","ScriptName":"sauce_connect","Release":"3.1-r32"},"ssh_port":443,"squid_config":null,"use_caching_proxy":true,"no_ssl_bump_domains":null,"use_kgp":true,"domain_names":[],"direct_domains":null,"vm_version":"","fast_fail_regexps":null,"shared_tunnel":false}
+2015-02-03 00:19:35,487 - sauce_connect:276 - INFO - Tunnel remote VM is provisioned (3831fefbf3244af883dc8581f885f4ec)
+2015-02-03 00:19:35,773 - sauce_connect:294 - INFO - Tunnel remote VM is booting ..
+2015-02-03 00:19:39,408 - sauce_connect:298 - INFO - Tunnel remote VM is running at maki76130.miso.saucelabs.com
+2015-02-03 00:19:39,418 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:56829 in 0ms
+2015-02-03 00:19:39,421 - sauce_connect:696 - INFO - Starting connection to tunnel host...
+2015-02-03 00:19:39,424 - sauce_connect:696 - INFO - Connecting to tunnel host maki76130.miso.saucelabs.com as kylewelsby-os
+2015-02-03 00:19:39,493 - sauce_connect:696 - INFO - Forwarding Selenium with ephemeral port 56886
+2015-02-03 00:19:39,496 - sauce_connect:696 - INFO - Selenium HTTP proxy listening on port 4445
+2015-02-03 00:19:40,529 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2015-02-03 00:19:40,533 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 348f5b806ebe40e6ba8de5c17fc6de8d
+2015-02-03 00:19:40,536 - sauce_connect:696 - INFO - Connected! You may start your tests.

@@ -29,14 +29,14 @@ var sauceLabsBrowsers = [
   {name: 'firefox'},
   {name: 'opera'},
   // {name: 'safari', version: 8, platform: 'OS X 10.10'},
-  {name: 'safari', version: 7, platform: 'OS X 10.9'},
-  {name: 'safari', version: 6, platform: 'OS X 10.8'},
-  {name: 'iphone', version: '8.1', platform: 'OS X 10.10'},
-  {name: 'iphone', version: '7.1', platform: 'OS X 10.10'},
-  {name: 'iphone', version: '6.1', platform: 'OS X 10.8'},
-  {name: 'android', version: '5.0'},
-  {name: 'android', version: '4.4'},
-  {name: 'android', version: '4.3'},
+  // {name: 'safari', version: 7, platform: 'OS X 10.9'},
+  // {name: 'safari', version: 6, platform: 'OS X 10.8'},
+  // {name: 'iphone', version: '8.1', platform: 'OS X 10.10'},
+  // {name: 'iphone', version: '7.1', platform: 'OS X 10.10'},
+  // {name: 'iphone', version: '6.1', platform: 'OS X 10.8'},
+  // {name: 'android', version: '5.0'},
+  // {name: 'android', version: '4.4'},
+  // {name: 'android', version: '4.3'},
 ]
 
 var config = {
