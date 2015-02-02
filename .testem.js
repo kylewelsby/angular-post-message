@@ -46,7 +46,6 @@ var config = {
     'src/*.coffee',
     'tests/*.coffee'
   ],
-  timeout: 2 * 60 * 1000,
   launch_in_ci: [],
   launch_in_dev: []
 };
@@ -83,6 +82,7 @@ if(!angularVersion) {
       protocol: 'tap'
     };
     config.launch_in_ci.push(key);
+    config.timeout: 2 * 60 * 1000;
   });
   config.serve_files= [
     'bower_components/angular-'+angularVersion+'/angular.js',
