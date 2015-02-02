@@ -25,9 +25,9 @@ var sauceLabsBrowsers = [
   // {name: 'internet explorer', version: 10, platform: 'Windows 8'},
   // {name: 'internet explorer', version: 9, platform: 'Windows 7'},
   // {name: 'internet explorer', version: 8, platform: 'Windows XP'},
-  // {name: 'chrome'},
-  // {name: 'firefox'},
-  // {name: 'opera'},
+  {name: 'chrome'},
+  {name: 'firefox'},
+  {name: 'opera'},
   // {name: 'safari', version: 8, platform: 'OS X 10.10'},
   {name: 'safari', version: 7, platform: 'OS X 10.9'},
   {name: 'safari', version: 6, platform: 'OS X 10.8'},
@@ -46,7 +46,7 @@ var config = {
     'src/*.coffee',
     'tests/*.coffee'
   ],
-  timeout: 60 * 1000,
+  timeout: 2 * 60 * 1000,
   launch_in_ci: [],
   launch_in_dev: []
 };
@@ -91,7 +91,5 @@ if(!angularVersion) {
     '.tmp/tests/*.js'
   ]
 }
-
-console.log(config);
 
 module.exports = config;
