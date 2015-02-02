@@ -1,6 +1,6 @@
 {
-  "name": "angular-post-message",
-  "version": "1.1.1",
+  "name": "angular-post-message2",
+  "version": "1.1.2",
   "description": "Allow angularJS to listen and publish cross-document messages though window.postMessage API.",
   "main": "dist/angular-post-message.min.js",
   "scripts": {
