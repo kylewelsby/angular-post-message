@@ -5,5 +5,7 @@ env:
   - DISPLAY=:99.0
 before_script:
   - npm install bower
+  - npm install -g codeclimate-test-reporter
   - ./node_modules/.bin/bower install --dev
-  - ./node_modules/.bin/testem launchers
+after_script:
+  - cat lcov.info | codeclimate

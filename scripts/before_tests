@@ -1,4 +1,0 @@
-#!/bin/bash -e
-
-./node_modules/.bin/coffee --compile --output ./.tmp/src src/*.coffee
-./node_modules/.bin/coffee --compile --output ./.tmp/tests tests/*.coffee
