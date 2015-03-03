@@ -1,0 +1,7 @@
+/tests/
+karma*
+/scripts/
+/src/
+package.json
+Gruntfile.js
+.js*
