@@ -1,4 +1,5 @@
 (function() {
+  'use strict';
   describe("ngPostMessage directive", function() {
     var $scope, elm, messages, postMessage;
     elm = null;

@@ -1,4 +1,5 @@
 (function() {
+  'use strict';
   describe("ngPostMessage", function() {
     var $rootScope, messages, postMessage;
     postMessage = null;

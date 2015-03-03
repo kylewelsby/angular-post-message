@@ -1,4 +1,5 @@
 (function() {
+  'use strict';
   var app;
 
   app = angular.module("ngPostMessage", ['ng']);
@@ -21,8 +22,8 @@
             });
           }
         ],
-        link: (function($scope, $element, $attrs) {
-          $scope.sendMessageToService = (function(event) {
+        link: function($scope, $element, $attrs) {
+          $scope.sendMessageToService = function(event) {
             var error, response;
             event = event.originalEvent || event;
             if (event && event.data) {
@@ -32,15 +33,15 @@
                 response = angular.fromJson(event.data);
               } catch (_error) {
                 error = _error;
-                console.error('postMessageError:', error);
+                window.console.error('postMessageError:', error);
                 response = event.data;
               }
               $scope.$root.$broadcast('$messageIncoming', response);
               return $postMessage.messages(response);
             }
-          });
+          };
           return angular.element($window).bind('message', $scope.sendMessageToService);
-        })
+        }
       };
     }
   ]);
@@ -51,22 +52,22 @@
       var $messages, api;
       $messages = [];
       api = {
-        messages: (function(_message_) {
+        messages: function(_message_) {
           if (_message_) {
             $messages.push(_message_);
             $rootScope.$digest();
           }
           return $messages;
-        }),
-        lastMessage: (function() {
+        },
+        lastMessage: function() {
           return $messages[$messages.length - 1];
-        }),
-        post: (function(message, domain) {
+        },
+        post: function(message, domain) {
           if (!domain) {
             domain = "*";
           }
           return $rootScope.$broadcast('$messageOutgoing', message, domain);
-        })
+        }
       };
       return api;
     }
