@@ -8,7 +8,7 @@ before_script:
   - npm install -g codeclimate-test-reporter
   - ./node_modules/.bin/bower install --dev
 after_script:
-  - cat lcov.info | codeclimate
+  - cat coverage/lcov.info | codeclimate
 addons:
   code_climate:
     repo_token: 531a2e91091f5b9e08cdccf1d5c498a0dd9b7e30e90fab44c0409ea55cd3904a

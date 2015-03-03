@@ -103,6 +103,14 @@ module.exports = function(config) {
       testName: 'Angular postMessage'
     },
     customLaunchers: customLaunchers,
+
+    coverageReporter: {
+      dir: 'coverage',
+      reporters: [
+        { type: 'html', subdir: 'report-html' },
+        { type: 'lcovonly', subdir: '.', file: 'lcov.info' },
+      ]
+    }
   });
 
   if (process.env.CI) {
