@@ -1,0 +1,18 @@
+{
+  "extends": "../.jshintrc-base",
+    "browser": true,
+    "globals": {
+      "angular": false,
+      "inject": false,
+      "module": false,
+      "it": false,
+      "fit": false,
+      "describe": false,
+      "fdescribe": false,
+      "beforeEach": false,
+      "afterEach": false,
+      "expect": false,
+      "jasmine": false,
+      "spyOn": false
+    }
+}

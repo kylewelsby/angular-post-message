@@ -1,8 +1,14 @@
-# Angular Post Message API [![][travisci_img]][travisci]
+[![][bower_badge]][repo]
+[![][travisci_img]][travisci]
+[![][codeclimate_badge]][codeclimate]
+[![][codeclimate_cov_badge]][codeclimate]
+
+
+# AngularJS postMessage API
 
 Allow angularJS to listen and publish cross-document messages though [`window.postMessage`](http://www.whatwg.org/specs/web-apps/current-work/multipage/web-messaging.html#crossDocumentMessages) API.
 
-Cross-document messaging is compatable with the following browsers as seen on [Can I Use](http://caniuse.com/x-doc-messaging):
+Cross-document messaging is compatible with the following browsers as seen on [Can I Use](http://caniuse.com/x-doc-messaging):
 
 - Internet Explorer 8+
 - Firefox 3+
@@ -21,11 +27,13 @@ Cross-document messaging is compatable with the following browsers as seen on [C
 *Partial support in IE8-9 refers to only working in frames/iframes (not other tabs/windows). Also in IE 9 and below an object cannot be sent using postMessage. Partial support in IE10 refers to [limitations in certain conditions](http://stackoverflow.com/questions/16226924/is-cross-origin-postmessage-broken-in-ie10)*
 
 
-Tested on AngularJS versions `1.0.X`, `1.2.X` and `1.3.0`.
+Tested on AngularJS versions `1.2`, `1.3` and `1.4` in Chrome, Firefox, Opera, and IE9+.
+
+*IE8 is not officially supported by AngularJS*
 
 ## Installation
 
-The repository comes with the modules pre-buolt and compressed into the `dist/` directory.
+The repository comes with the modules pre-built and compressed into the `dist/` directory.
 
 Install the component via [bower](http://bower.io)
 
@@ -33,7 +41,7 @@ Install the component via [bower](http://bower.io)
 
 Or alternatively checkout this repo into your project.
 
-Then inlcude `dist/angular-post-message.min.js` into your project.
+Then include `dist/angular-post-message.min.js` into your project.
 
 ## Example
 
@@ -81,7 +89,6 @@ You do not need to build the project to use it, but if you are working on it the
 ### Requirements
 
 * [Node.js](http://node.js)
-* [Testem][testem] - `npm install -g testem`
 
 
 ### Testing
@@ -90,16 +97,18 @@ To run all the tests
 
     npm test
 
-To run tests while developing
+To run tests while developing (limited to latest Angular version on Google Chrome)
 
-    testem
+    karma start
 
-Then open [http://localhost:7357](http://localhost:7357) in any or all browsers.
+or run tests once
 
-or run tests once (testing on all available browsers)
+    ./scripts/ci
 
-    testem ci
-
-[testem]:https://github.com/airportyh/testem
+[repo]:https://github.com/kylewelsby/angular-post-message
 [travisci]:https://travis-ci.org/kylewelsby/angular-post-message
-[travisci_img]:https://travis-ci.org/kylewelsby/angular-post-message.png
+[travisci_img]:https://travis-ci.org/kylewelsby/angular-post-message.svg
+[codeclimate]:https://codeclimate.com/github/kylewelsby/angular-post-message
+[codeclimate_badge]:https://codeclimate.com/github/kylewelsby/angular-post-message/badges/gpa.svg
+[codeclimate_cov_badge]:https://codeclimate.com/github/kylewelsby/angular-post-message/badges/coverage.svg
+[bower_badge]:https://img.shields.io/bower/v/angular-post-message.svg

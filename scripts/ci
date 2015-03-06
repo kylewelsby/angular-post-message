@@ -1,0 +1,5 @@
+#!/bin/bash -e
+
+./node_modules/karma/bin/karma start karma.angular-1.4.conf.js
+./node_modules/karma/bin/karma start karma.angular-1.3.conf.js
+./node_modules/karma/bin/karma start karma.angular-1.2.conf.js
