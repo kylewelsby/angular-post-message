@@ -5,3 +5,4 @@ karma*
 package.json
 Gruntfile.js
 .js*
+.travis*
