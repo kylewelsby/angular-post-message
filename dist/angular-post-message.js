@@ -9,45 +9,36 @@
 
   app = angular.module("ngPostMessage", ['ng']);
 
-  app.directive('html', [
-    '$window', '$postMessage',
-    function($window, $postMessage) {
-      return {
-        restrict: 'E',
-        controller: [
-          '$scope',
-          function($scope) {
-            return $scope.$on('$messageOutgoing', function(event, message, domain) {
-              var sender;
-              if (!domain) {
-                domain = "*";
-              }
-              sender = $scope.sender || $window.parent;
-              return sender.postMessage(message, domain);
-            });
-          }
-        ],
-        link: function($scope, $element, $attrs) {
-          $scope.sendMessageToService = function(event) {
-            var error, response;
-            event = event.originalEvent || event;
-            if (event && event.data) {
-              response = null;
-              $scope.sender = event.source;
-              try {
-                response = angular.fromJson(event.data);
-              } catch (_error) {
-                error = _error;
-                window.console.error('postMessageError:', error);
-                response = event.data;
-              }
-              $scope.$root.$broadcast('$messageIncoming', response);
-              return $postMessage.messages(response);
-            }
-          };
-          return angular.element($window).bind('message', $scope.sendMessageToService);
+  app.run([
+    '$window', '$postMessage', '$rootScope',
+    function($window, $postMessage, $rootScope) {
+
+      $rootScope.$on('$messageOutgoing', function(event, message, domain) {
+        var sender;
+        if (domain == null) {
+          domain = "*";
         }
-      };
+        sender = $rootScope.sender || $window.parent;
+        return sender.postMessage(message, domain);
+      });
+
+      angular.element($window).bind('message', function(event) {
+        var error, response;
+        event = event.originalEvent || event;
+        if (event && event.data) {
+          response = null;
+          $rootScope.sender = event.source;
+          try {
+            response = angular.fromJson(event.data);
+          } catch (_error) {
+            error = _error;
+            console.error('ahem', error);
+            response = event.data;
+          }
+          $rootScope.$root.$broadcast('$messageIncoming', response);
+          return $postMessage.messages(response);
+        }
+      });
     }
   ]);
 
