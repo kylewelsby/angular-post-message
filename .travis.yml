@@ -10,7 +10,6 @@ before_script:
 after_script:
   - cat coverage/lcov.info | codeclimate
 addons:
-  sauce_connect: true
   code_climate:
     repo_token: 531a2e91091f5b9e08cdccf1d5c498a0dd9b7e30e90fab44c0409ea55cd3904a
 env:
