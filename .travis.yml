@@ -10,8 +10,10 @@ before_script:
 after_script:
   - cat coverage/lcov.info | codeclimate
 addons:
-  sauce_connect:
-    username: kylewelsby-os
-    access_key: 96a7f660-a776-4eac-b48f-89c490806718
+  sauce_connect: true
   code_climate:
     repo_token: 531a2e91091f5b9e08cdccf1d5c498a0dd9b7e30e90fab44c0409ea55cd3904a
+env:
+  global:
+    - secure: DWS+tvu0nyfqMoca42nbGlW7HtweubOgqpta4MXLzibY2Ek+0JOVhTxt5w3GGBJT80m4LO+RaXFLF7rc9557qeKVVa3wRu0pwaWQNbhyhT5FbfKDYM1gDidx2j08Gq0/YyQf2LTv/ahF7Upft7hQV+5gKRv1YcXV9hl4r/AfW9g=
+    - secure: OOLMhq5apql16XnXf6wDhkt7u6BsdQpaUtzay8S45ZI4hx8Vj2rwUKdDgh1U+BkeS9o8uU1djj9RE0lxytplb+Zz4ncULN1SrYUmASDv+0LGQZ6vmUv3oVl8XSuVwJ7guATZ1NHG0NQx1P8doS8q/8xo0AqVM4TVowTQEb03Zb8=
