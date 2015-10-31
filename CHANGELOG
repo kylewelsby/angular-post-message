@@ -1,0 +1,18 @@
+# Changelog
+
+## v1.3.1
+
+* Expose post message event.origin to listeners [5730fdc](https://github.com/kylewelsby/angular-post-message/commit/5730fdc93d96a3bc6cbb21eea7e37d14aec90686)
+
+
+## v1.3.0
+
+* Move the postmessage logic from the html directive to the module run block [5c6a7ab](https://github.com/kylewelsby/angular-post-message/commit/5c6a7ab4b685bc7f2e060e6c5534700770a70333)
+
+## 1.2.0
+
+* Refactor tests
+
+## 1.1.2
+
+* adding support for restricting target domain in postMessage [486250d](https://github.com/kylewelsby/angular-post-message/commit/486250dbcb2f209f08d80054abc8957a6ad9f711)
