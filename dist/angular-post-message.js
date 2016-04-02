@@ -1,6 +1,6 @@
 /*!
 * angular-post-message v1.3.1
-* Copyright 2015 Kyle Welsby <kyle@mekyle.com>
+* Copyright 2016 Kyle Welsby <kyle@mekyle.com>
 * Licensed under The MIT License
 */
 (function() {
@@ -10,8 +10,8 @@
   app = angular.module("ngPostMessage", ['ng']);
 
   app.run([
-    '$window', '$postMessage', '$rootScope', '$log',
-    function($window, $postMessage, $rootScope, $log) {
+    '$window', '$postMessage', '$rootScope',
+    function($window, $postMessage, $rootScope) {
 
       $rootScope.$on('$messageOutgoing', function(event, message, domain) {
         var sender;
@@ -31,9 +31,8 @@
           try {
             response = angular.fromJson(event.data);
           } catch (_error) {
-            error = _error;
-            $log.error('ahem', error);
-            response = event.data;
+            response = {};
+            response.text = event.data;
           }
           response.origin = event.origin;
           $rootScope.$root.$broadcast('$messageIncoming', response);

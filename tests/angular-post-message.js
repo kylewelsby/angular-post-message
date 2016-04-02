@@ -43,20 +43,41 @@
     });
 
     it("should add data to object for valid JSON data", function(done) {
-      $rootScope.$on("$messageIncoming", function(e, message) {
+      var off = $rootScope.$on("$messageIncoming", function(e, message) {
         expect(message.foo).toEqual(messages[3].foo);
+        off();
         done();
       });
       window.postMessage(messages[2], "*");
     });
 
     it("should set origin for valid JSON data", function(done) {
-      $rootScope.$on("$messageIncoming", function(e, message) {
+      var off = $rootScope.$on("$messageIncoming", function(e, message) {
         expect(message.origin).not.toBeUndefined();
+        off();
         done();
       });
       window.postMessage(messages[2], "*");
     });
+
+    it("should return valid object for non JSON formatted message", function(done) {
+      var off = $rootScope.$on("$messageIncoming", function(e, message) {
+        expect(message.text).toEqual(messages[0]);
+        off();
+        done();
+      });
+      window.postMessage(messages[0], "*");
+    });
+
+    it("should set origin for non JSON formatted message", function(done) {
+      var off = $rootScope.$on("$messageIncoming", function(e, message) {
+        expect(message.origin).not.toBeUndefined();
+        off();
+        done();
+      });
+      window.postMessage(messages[0], "*");
+    });
+
   });
 
 }).call(this);
