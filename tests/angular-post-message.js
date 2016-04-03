@@ -9,7 +9,7 @@
     beforeEach(inject(function(_$rootScope_, _$postMessage_) {
       $rootScope = _$rootScope_;
       postMessage = _$postMessage_;
-      messages = ["foo", "bar"];
+      messages = ["foo", "bar", '{ "foo": "bar" }', { foo: "bar" }];
     }));
     it("has no messages", function() {
       expect(postMessage.messages[0]).toBeUndefined();
@@ -41,6 +41,43 @@
       postMessage.post(messages[0]);
       expect(outgoingMessageListener.calls.first().args[1]).toEqual(messages[0]);
     });
+
+    it("should add data to object for valid JSON data", function(done) {
+      var off = $rootScope.$on("$messageIncoming", function(e, message) {
+        expect(message.foo).toEqual(messages[3].foo);
+        off();
+        done();
+      });
+      window.postMessage(messages[2], "*");
+    });
+
+    it("should set origin for valid JSON data", function(done) {
+      var off = $rootScope.$on("$messageIncoming", function(e, message) {
+        expect(message.origin).not.toBeUndefined();
+        off();
+        done();
+      });
+      window.postMessage(messages[2], "*");
+    });
+
+    it("should return valid object for non JSON formatted message", function(done) {
+      var off = $rootScope.$on("$messageIncoming", function(e, message) {
+        expect(message.text).toEqual(messages[0]);
+        off();
+        done();
+      });
+      window.postMessage(messages[0], "*");
+    });
+
+    it("should set origin for non JSON formatted message", function(done) {
+      var off = $rootScope.$on("$messageIncoming", function(e, message) {
+        expect(message.origin).not.toBeUndefined();
+        off();
+        done();
+      });
+      window.postMessage(messages[0], "*");
+    });
+
   });
 
 }).call(this);
