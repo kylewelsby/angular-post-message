@@ -2,7 +2,7 @@
 
 ## v1.4.0
 
-* Handle non JSON formatted messages. Message will be added to the `text` property of the response object.
+* Handle non JSON formatted messages. Message will be added to the `text` property of the response object. - closes #12 - thanks [mkly](https://github.com/mkly) 
 
 ## v1.3.1
 

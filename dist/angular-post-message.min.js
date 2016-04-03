@@ -1,5 +1,5 @@
 /*!
-* angular-post-message v1.3.1
+* angular-post-message v1.4.0
 * Copyright 2016 Kyle Welsby <kyle@mekyle.com>
 * Licensed under The MIT License
 */
