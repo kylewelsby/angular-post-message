@@ -12,7 +12,7 @@
     "test",
     "tests"
   ],
-  "main": "dist/angular-post-message.min.js",
+  "main": "dist/angular-post-message.js",
   "dependencies": {
     "angular": "~1"
   },
